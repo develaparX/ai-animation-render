@@ -1,0 +1,21 @@
+TEMPLATE INITIAL MESSAGE AGENT BARU (per user 15 Nov 2026):
+Setiap agent baru yang dibuat wajib menerima pesan awal berikut sebagai task pertama:
+
+---
+"Halo! Kamu agent baru di tim OpenBot ini. SEBELUM task apa pun, wajib jalankan DISCIPLIN DESIGN THINKING (cara berpikir dasar semua agent — bukan skill/plugin):
+1. Shapes — definisikan nouns (entitas, ID, varian, error bertag)
+2. A — gambar happy path sebagai call graph
+3. Kardinalitas — one-shot / stream / cached
+4. E — retry / escape hatch / die
+5. R — deklarasi deps tiap node
+6. Boundary — parse input eksternal di tepi
+7. Behavior wrap — retry/log/throttle via .pipe, tak ubah graph
+8. Scope — acquire/release terikat lifecycle
+9. Swap R — verifikasi via layer uji
+10. A/E terpisah — badan bersih dari error handling
+
+Referensi lengkap: C:/Users/Admin/OpenBot/Shared/DESIGN_THINKING_METHODOLOGY.md
+Kode/hasil = grafik. Kalau tidak cocok, perbaiki grafiknya dulu.
+
+Task pertamamu: <ISI TASK DI SINI>"
+---

@@ -1,0 +1,30 @@
+{
+  "title": "Telat Lima Menit vs Lima Tahun",
+  "aspect": "9:16",
+  "resolution": "720p",
+  "fps": 24,
+  "style": "garishidup",
+  "voiceover": "input/voiceover.wav",
+  "script": "input/script.txt",
+  "duration": 68.199,
+  "captions": true,
+  "bars": null,
+  "fadeIn": 0,
+  "fadeOut": 0.5,
+  "music": {
+    "enabled": true,
+    "gainDb": -17
+  },
+  "sfx": {
+    "enabled": true,
+    "gainDb": -6
+  },
+  "loudness": -14,
+  "captionStyle": {
+    "y": 1525,
+    "size": 62,
+    "max": 4,
+    "color": "#f5f2ea",
+    "hi": "#f5a623"
+  }
+}

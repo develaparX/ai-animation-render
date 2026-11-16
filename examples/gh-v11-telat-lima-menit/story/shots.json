@@ -1,0 +1,332 @@
+{
+ "title": "Jam 08.05: Telat Lima Menit vs Lima Tahun",
+ "duration": 68.199,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 5.071,
+   "line": "Jam delapan lewat lima menit di loket pajak, kamu telat sehari saja langsung disodori struk denda tanpa ampun.",
+   "scene": "v11_b1_hook_0805",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 1.8,
+     "name": "hit",
+     "gain": -7
+    }
+   ],
+   "notes": "Beat 1/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s002",
+   "start": 5.071,
+   "end": 10.989,
+   "line": "Padahal coba putar waktu mundur ke jam setengah lima subuh, saat kamu sudah menembus hujan dingin mengantar paket demi cari uang pajak itu.",
+   "scene": "v11_b2_flashback_0430",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -10
+    },
+    {
+     "at": 1.6,
+     "name": "shimmer",
+     "gain": -11
+    }
+   ],
+   "notes": "Beat 2/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s003",
+   "start": 10.989,
+   "end": 16.473,
+   "line": "Lalu di jam enam lewat empat puluh lima, roda motormu menghantam lubang jalan yang dalam sampai bannya pecah di tengah jalan.",
+   "scene": "v11_b3_flashback_0645",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 2.0,
+     "name": "pop",
+     "gain": -9
+    }
+   ],
+   "notes": "Beat 3/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s004",
+   "start": 16.473,
+   "end": 22.36,
+   "line": "Ironisnya, proyek perbaikan jalan yang bikin banmu pecah itu sudah mangkrak lima tahun penuh dengan sembilan kali revisi di atas kertas.",
+   "scene": "v11_b4_mangkrak_5tahun",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -9
+    },
+    {
+     "at": 1.9,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "notes": "Beat 4/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s005",
+   "start": 22.36,
+   "end": 28.67,
+   "line": "Bukannya didenda karena terlambat seribu delapan ratus hari, oknum kontraktornya malah santai kirim pesan minta tambahan biaya empat miliar lagi.",
+   "scene": "v11_b5_chat_tambah_biaya",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -8
+    },
+    {
+     "at": 1.7,
+     "name": "hit",
+     "gain": -6
+    }
+   ],
+   "notes": "Beat 5/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s006",
+   "start": 28.67,
+   "end": 34.255,
+   "line": "Di lantai atas proyek telat lima tahun bebas sanksi, sedangkan di lantai bawah warga telat lima menit langsung dipotong denda.",
+   "scene": "v11_b6_opensplit_5m_vs_5y",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -7
+    },
+    {
+     "at": 2.0,
+     "name": "buzz",
+     "gain": -9
+    }
+   ],
+   "notes": "Beat 6/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s007",
+   "start": 34.255,
+   "end": 39.739,
+   "line": "Disiplin warga diperas sampai tetes terakhir, sementara kelalaian pejabat justru disubsidi dari pajak yang kamu bayar.",
+   "scene": "v11_b7_siphon",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "tick",
+     "gain": -9
+    },
+    {
+     "at": 2.0,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "notes": "Beat 7/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s008",
+   "start": 39.739,
+   "end": 44.789,
+   "line": "Sekarang bayangkan, gimana kalau hari ini katup aturan denda itu kita putar balik seratus delapan puluh derajat?",
+   "scene": "v11_b8_valve_reverse",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -6
+    },
+    {
+     "at": 1.5,
+     "name": "ding",
+     "gain": -6
+    }
+   ],
+   "notes": "Beat 8/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s009",
+   "start": 44.789,
+   "end": 52.047,
+   "line": "Begitu proyek jalan terlambat satu hari saja, gaji dan tunjangan pejabat penanggung jawabnya otomatis terpotong untuk menambal jalan dan membayar pajak motor warga.",
+   "scene": "v11_b9_flow_road",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -7
+    },
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -7
+    }
+   ],
+   "notes": "Beat 9/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s010",
+   "start": 52.047,
+   "end": 57.889,
+   "line": "Dalam sebulan, jalanan berlubang berubah mulus berlapis aspal kokoh lengkap dengan stempel bebas denda bagi warga terdampak.",
+   "scene": "v11_b10_smooth_road_stamped",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -8
+    },
+    {
+     "at": 1.9,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "notes": "Beat 10/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s011",
+   "start": 57.889,
+   "end": 62.733,
+   "line": "Rakyat telat sehari langsung didenda, jangan biarkan proyek telat lima tahun malah minta tambah biaya.",
+   "scene": "v11_b11_punchline_lock",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -6
+    }
+   ],
+   "notes": "Beat 11/12 GarisHidup v2.1"
+  },
+  {
+   "id": "s012",
+   "start": 62.733,
+   "end": 68.199,
+   "line": "Kalau aturan denda terbalik ini berlaku besok pagi, proyek mangkrak mana di kotamu yang bakal langsung kelar dalam seminggu?",
+   "scene": "v11_b12_cta",
+   "set": "garishidup",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -8
+    },
+    {
+     "at": 1.8,
+     "name": "pop",
+     "gain": -9
+    }
+   ],
+   "notes": "Beat 12/12 GarisHidup v2.1"
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 39.74,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 39.74,
+   "end": 68.199,
+   "mood": "hopeful",
+   "intensity": 0.65
+  }
+ ]
+}

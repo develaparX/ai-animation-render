@@ -1,0 +1,410 @@
+{
+  "id": "02_lubang_hitam",
+  "total_dur": 24.869,
+  "segments": [
+    {
+      "id": "hook",
+      "text": "Satu detik di dekat lubang hitam bisa setara tujuh tahun di Bumi!",
+      "dur": 2.845792,
+      "start": 0.06,
+      "end": 2.906
+    },
+    {
+      "id": "orbit",
+      "text": "Bayangin pesawatmu mulai mendekati cakram cahaya raksasa di tengah ruang hampa.",
+      "dur": 3.711042,
+      "start": 3.086,
+      "end": 6.797
+    },
+    {
+      "id": "dilation",
+      "text": "Di luar sana waktu terus melaju, sementara jam di tanganmu melambat hampir membeku.",
+      "dur": 4.237083,
+      "start": 7.037,
+      "end": 11.274
+    },
+    {
+      "id": "lens",
+      "text": "Gravitasi membelokkan seluruh cahaya bintang, membuat sekelilingmu tampak melingkar aneh.",
+      "dur": 4.280875,
+      "start": 11.524,
+      "end": 15.805
+    },
+    {
+      "id": "tunnel",
+      "text": "Sekali melewati garis batasnya, bahkan cahaya pun nggak sanggup pulang lagi.",
+      "dur": 3.753083,
+      "start": 16.055,
+      "end": 19.808
+    },
+    {
+      "id": "cta",
+      "text": "Kalau berani masuk dan balik lagi seratus tahun ke depan, siapa yang mau kamu temui?",
+      "dur": 3.86125,
+      "start": 20.158,
+      "end": 24.019
+    }
+  ],
+  "words": [
+    {
+      "word": "Satu",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "detik",
+      "start": 0.36,
+      "end": 0.58
+    },
+    {
+      "word": "di",
+      "start": 0.58,
+      "end": 0.7
+    },
+    {
+      "word": "dekat",
+      "start": 0.7,
+      "end": 0.88
+    },
+    {
+      "word": "lubang",
+      "start": 0.88,
+      "end": 1.14
+    },
+    {
+      "word": "hitam",
+      "start": 1.14,
+      "end": 1.44
+    },
+    {
+      "word": "bisa",
+      "start": 1.44,
+      "end": 1.64
+    },
+    {
+      "word": "setara",
+      "start": 1.64,
+      "end": 1.94
+    },
+    {
+      "word": "tujuh",
+      "start": 1.94,
+      "end": 2.16
+    },
+    {
+      "word": "tahun",
+      "start": 2.16,
+      "end": 2.36
+    },
+    {
+      "word": "di",
+      "start": 2.36,
+      "end": 2.52
+    },
+    {
+      "word": "Bumi.",
+      "start": 2.52,
+      "end": 2.82
+    },
+    {
+      "word": "Bayangin",
+      "start": 3.06,
+      "end": 3.48
+    },
+    {
+      "word": "pesawatmu",
+      "start": 3.48,
+      "end": 3.96
+    },
+    {
+      "word": "mulai",
+      "start": 3.96,
+      "end": 4.2
+    },
+    {
+      "word": "mendekati",
+      "start": 4.2,
+      "end": 4.54
+    },
+    {
+      "word": "cakram",
+      "start": 4.54,
+      "end": 4.9
+    },
+    {
+      "word": "cahaya",
+      "start": 4.9,
+      "end": 5.2
+    },
+    {
+      "word": "raksasa",
+      "start": 5.2,
+      "end": 5.64
+    },
+    {
+      "word": "di",
+      "start": 5.64,
+      "end": 5.9
+    },
+    {
+      "word": "tengah",
+      "start": 5.9,
+      "end": 6.12
+    },
+    {
+      "word": "ruang",
+      "start": 6.12,
+      "end": 6.3
+    },
+    {
+      "word": "hampa.",
+      "start": 6.3,
+      "end": 6.72
+    },
+    {
+      "word": "Di",
+      "start": 7.06,
+      "end": 7.18
+    },
+    {
+      "word": "luar",
+      "start": 7.18,
+      "end": 7.38
+    },
+    {
+      "word": "sana",
+      "start": 7.38,
+      "end": 7.58
+    },
+    {
+      "word": "waktu",
+      "start": 7.58,
+      "end": 7.86
+    },
+    {
+      "word": "terus",
+      "start": 7.86,
+      "end": 8.14
+    },
+    {
+      "word": "melaju,",
+      "start": 8.14,
+      "end": 8.54
+    },
+    {
+      "word": "sementara",
+      "start": 9.08,
+      "end": 9.4
+    },
+    {
+      "word": "jam",
+      "start": 9.4,
+      "end": 9.62
+    },
+    {
+      "word": "di",
+      "start": 9.62,
+      "end": 9.76
+    },
+    {
+      "word": "tanganmu",
+      "start": 9.76,
+      "end": 10.08
+    },
+    {
+      "word": "melambat",
+      "start": 10.08,
+      "end": 10.44
+    },
+    {
+      "word": "hampir",
+      "start": 10.44,
+      "end": 10.76
+    },
+    {
+      "word": "membeku.",
+      "start": 10.76,
+      "end": 11.12
+    },
+    {
+      "word": "Gravitasi",
+      "start": 11.54,
+      "end": 12.06
+    },
+    {
+      "word": "membelokkan",
+      "start": 12.06,
+      "end": 12.54
+    },
+    {
+      "word": "seluruh",
+      "start": 12.54,
+      "end": 12.84
+    },
+    {
+      "word": "cahaya",
+      "start": 12.84,
+      "end": 13.12
+    },
+    {
+      "word": "bintang,",
+      "start": 13.12,
+      "end": 13.6
+    },
+    {
+      "word": "membuat",
+      "start": 13.88,
+      "end": 14.28
+    },
+    {
+      "word": "sekelilingmu",
+      "start": 14.28,
+      "end": 14.8
+    },
+    {
+      "word": "tampak",
+      "start": 14.8,
+      "end": 15.12
+    },
+    {
+      "word": "melingkar",
+      "start": 15.12,
+      "end": 15.44
+    },
+    {
+      "word": "aneh.",
+      "start": 15.44,
+      "end": 15.76
+    },
+    {
+      "word": "Sekali",
+      "start": 16.06,
+      "end": 16.36
+    },
+    {
+      "word": "melewati",
+      "start": 16.36,
+      "end": 16.72
+    },
+    {
+      "word": "garis",
+      "start": 16.72,
+      "end": 17.08
+    },
+    {
+      "word": "batasnya,",
+      "start": 17.08,
+      "end": 17.44
+    },
+    {
+      "word": "bahkan",
+      "start": 17.88,
+      "end": 18.26
+    },
+    {
+      "word": "cahaya",
+      "start": 18.26,
+      "end": 18.56
+    },
+    {
+      "word": "pun",
+      "start": 18.56,
+      "end": 18.7
+    },
+    {
+      "word": "nggak",
+      "start": 18.7,
+      "end": 18.88
+    },
+    {
+      "word": "sanggup",
+      "start": 18.88,
+      "end": 19.14
+    },
+    {
+      "word": "pulang",
+      "start": 19.14,
+      "end": 19.38
+    },
+    {
+      "word": "lagi.",
+      "start": 19.38,
+      "end": 19.7
+    },
+    {
+      "word": "Kalau",
+      "start": 20.12,
+      "end": 20.36
+    },
+    {
+      "word": "berani",
+      "start": 20.36,
+      "end": 20.58
+    },
+    {
+      "word": "masuk",
+      "start": 20.58,
+      "end": 20.86
+    },
+    {
+      "word": "dan",
+      "start": 20.86,
+      "end": 21.04
+    },
+    {
+      "word": "balik",
+      "start": 21.04,
+      "end": 21.26
+    },
+    {
+      "word": "lagi",
+      "start": 21.26,
+      "end": 21.5
+    },
+    {
+      "word": "100",
+      "start": 21.5,
+      "end": 21.72
+    },
+    {
+      "word": "tahun",
+      "start": 21.72,
+      "end": 22.02
+    },
+    {
+      "word": "ke",
+      "start": 22.02,
+      "end": 22.12
+    },
+    {
+      "word": "depan,",
+      "start": 22.12,
+      "end": 22.44
+    },
+    {
+      "word": "siapa",
+      "start": 22.86,
+      "end": 23.16
+    },
+    {
+      "word": "yang",
+      "start": 23.16,
+      "end": 23.28
+    },
+    {
+      "word": "mau",
+      "start": 23.28,
+      "end": 23.4
+    },
+    {
+      "word": "kamu",
+      "start": 23.4,
+      "end": 23.58
+    },
+    {
+      "word": "temui?",
+      "start": 23.58,
+      "end": 23.88
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "id": "04_menunda",
+  "total_dur": 26.274,
+  "segments": [
+    {
+      "id": "hook",
+      "text": "Sering nunda kerjaan bukan berarti malas, kadang otakmu lagi kerja diam-diam.",
+      "dur": 3.807292,
+      "start": 0.06,
+      "end": 3.867
+    },
+    {
+      "id": "overload",
+      "text": "Pas kamu paksa mikir di depan dua layar penuh kode, bagian otak depan justru gampang penuh.",
+      "dur": 4.294875,
+      "start": 4.047,
+      "end": 8.342
+    },
+    {
+      "id": "incubate",
+      "text": "Begitu kamu tinggal jalan sebentar atau bikin kopi, jaringan dalam otak baru mulai menyambung.",
+      "dur": 4.475958,
+      "start": 8.562,
+      "end": 13.038
+    },
+    {
+      "id": "spark",
+      "text": "Di fase tenang itulah potongan ide yang tadinya buntu tiba-tiba ketemu polanya!",
+      "dur": 3.502125,
+      "start": 13.278,
+      "end": 16.78
+    },
+    {
+      "id": "solve",
+      "text": "Jadi jeda sebentar sebelum balik lagi sering bikin masalah kelar lebih cepat.",
+      "dur": 3.306375,
+      "start": 17.04,
+      "end": 20.347
+    },
+    {
+      "id": "cta",
+      "text": "Kamu tim langsung hajar tugas atau butuh jeda dulu baru ketemu ide? Komen di bawah.",
+      "dur": 4.757417,
+      "start": 20.667,
+      "end": 25.424
+    }
+  ],
+  "words": [
+    {
+      "word": "Sering",
+      "start": 0.0,
+      "end": 0.34
+    },
+    {
+      "word": "nunda",
+      "start": 0.34,
+      "end": 0.5
+    },
+    {
+      "word": "kerjaan",
+      "start": 0.5,
+      "end": 0.9
+    },
+    {
+      "word": "bukan",
+      "start": 0.9,
+      "end": 1.06
+    },
+    {
+      "word": "berarti",
+      "start": 1.06,
+      "end": 1.38
+    },
+    {
+      "word": "malas,",
+      "start": 1.38,
+      "end": 1.82
+    },
+    {
+      "word": "kadang",
+      "start": 2.04,
+      "end": 2.44
+    },
+    {
+      "word": "otakmu",
+      "start": 2.44,
+      "end": 2.72
+    },
+    {
+      "word": "lagi",
+      "start": 2.72,
+      "end": 2.92
+    },
+    {
+      "word": "kerja",
+      "start": 2.92,
+      "end": 3.28
+    },
+    {
+      "word": "diam-diam.",
+      "start": 3.28,
+      "end": 3.74
+    },
+    {
+      "word": "Pas",
+      "start": 4.0,
+      "end": 4.18
+    },
+    {
+      "word": "kamu",
+      "start": 4.18,
+      "end": 4.4
+    },
+    {
+      "word": "paksa",
+      "start": 4.4,
+      "end": 4.64
+    },
+    {
+      "word": "mikir",
+      "start": 4.64,
+      "end": 4.96
+    },
+    {
+      "word": "di",
+      "start": 4.96,
+      "end": 5.08
+    },
+    {
+      "word": "depan",
+      "start": 5.08,
+      "end": 5.28
+    },
+    {
+      "word": "dua",
+      "start": 5.28,
+      "end": 5.4
+    },
+    {
+      "word": "layar",
+      "start": 5.4,
+      "end": 5.66
+    },
+    {
+      "word": "penuh",
+      "start": 5.66,
+      "end": 5.86
+    },
+    {
+      "word": "kode,",
+      "start": 5.86,
+      "end": 6.12
+    },
+    {
+      "word": "bagian",
+      "start": 6.56,
+      "end": 6.92
+    },
+    {
+      "word": "otak",
+      "start": 6.92,
+      "end": 7.14
+    },
+    {
+      "word": "depan",
+      "start": 7.14,
+      "end": 7.38
+    },
+    {
+      "word": "justru",
+      "start": 7.38,
+      "end": 7.7
+    },
+    {
+      "word": "gampang",
+      "start": 7.7,
+      "end": 8.02
+    },
+    {
+      "word": "penuh.",
+      "start": 8.02,
+      "end": 8.3
+    },
+    {
+      "word": "Begitu",
+      "start": 8.56,
+      "end": 8.9
+    },
+    {
+      "word": "kamu",
+      "start": 8.9,
+      "end": 9.04
+    },
+    {
+      "word": "tinggal",
+      "start": 9.04,
+      "end": 9.34
+    },
+    {
+      "word": "jalan",
+      "start": 9.34,
+      "end": 9.56
+    },
+    {
+      "word": "sebentar",
+      "start": 9.56,
+      "end": 9.94
+    },
+    {
+      "word": "atau",
+      "start": 9.94,
+      "end": 10.14
+    },
+    {
+      "word": "bikin",
+      "start": 10.14,
+      "end": 10.4
+    },
+    {
+      "word": "kopi,",
+      "start": 10.4,
+      "end": 10.76
+    },
+    {
+      "word": "jaringan",
+      "start": 11.18,
+      "end": 11.6
+    },
+    {
+      "word": "dalam",
+      "start": 11.6,
+      "end": 11.76
+    },
+    {
+      "word": "otak",
+      "start": 11.76,
+      "end": 12.02
+    },
+    {
+      "word": "baru",
+      "start": 12.02,
+      "end": 12.24
+    },
+    {
+      "word": "mulai",
+      "start": 12.24,
+      "end": 12.48
+    },
+    {
+      "word": "menyambung.",
+      "start": 12.48,
+      "end": 12.92
+    },
+    {
+      "word": "Di",
+      "start": 13.24,
+      "end": 13.43
+    },
+    {
+      "word": "fase",
+      "start": 13.43,
+      "end": 13.62
+    },
+    {
+      "word": "tenang",
+      "start": 13.62,
+      "end": 14.0
+    },
+    {
+      "word": "itulah",
+      "start": 14.0,
+      "end": 14.28
+    },
+    {
+      "word": "potongan",
+      "start": 14.28,
+      "end": 14.6
+    },
+    {
+      "word": "ide",
+      "start": 14.6,
+      "end": 14.78
+    },
+    {
+      "word": "yang",
+      "start": 14.78,
+      "end": 14.94
+    },
+    {
+      "word": "tadinya",
+      "start": 14.94,
+      "end": 15.3
+    },
+    {
+      "word": "buntu",
+      "start": 15.3,
+      "end": 15.62
+    },
+    {
+      "word": "tiba-tiba",
+      "start": 15.62,
+      "end": 16.04
+    },
+    {
+      "word": "ketemu",
+      "start": 16.04,
+      "end": 16.28
+    },
+    {
+      "word": "polanya.",
+      "start": 16.28,
+      "end": 16.62
+    },
+    {
+      "word": "Jadi",
+      "start": 17.0,
+      "end": 17.34
+    },
+    {
+      "word": "jeda",
+      "start": 17.34,
+      "end": 17.56
+    },
+    {
+      "word": "sebentar",
+      "start": 17.56,
+      "end": 17.94
+    },
+    {
+      "word": "sebelum",
+      "start": 17.94,
+      "end": 18.28
+    },
+    {
+      "word": "balik",
+      "start": 18.28,
+      "end": 18.48
+    },
+    {
+      "word": "lagi",
+      "start": 18.48,
+      "end": 18.74
+    },
+    {
+      "word": "sering",
+      "start": 18.74,
+      "end": 19.04
+    },
+    {
+      "word": "bikin",
+      "start": 19.04,
+      "end": 19.28
+    },
+    {
+      "word": "masalah",
+      "start": 19.28,
+      "end": 19.56
+    },
+    {
+      "word": "kelar",
+      "start": 19.56,
+      "end": 19.82
+    },
+    {
+      "word": "lebih",
+      "start": 19.82,
+      "end": 20.0
+    },
+    {
+      "word": "cepat.",
+      "start": 20.0,
+      "end": 20.34
+    },
+    {
+      "word": "Kamu",
+      "start": 20.64,
+      "end": 20.96
+    },
+    {
+      "word": "tim",
+      "start": 20.96,
+      "end": 21.04
+    },
+    {
+      "word": "langsung",
+      "start": 21.04,
+      "end": 21.34
+    },
+    {
+      "word": "hajar",
+      "start": 21.34,
+      "end": 21.56
+    },
+    {
+      "word": "tugas",
+      "start": 21.56,
+      "end": 22.0
+    },
+    {
+      "word": "atau",
+      "start": 22.0,
+      "end": 22.18
+    },
+    {
+      "word": "butuh",
+      "start": 22.18,
+      "end": 22.4
+    },
+    {
+      "word": "jeda",
+      "start": 22.4,
+      "end": 22.62
+    },
+    {
+      "word": "dulu",
+      "start": 22.62,
+      "end": 22.8
+    },
+    {
+      "word": "baru",
+      "start": 22.8,
+      "end": 23.02
+    },
+    {
+      "word": "ketemu",
+      "start": 23.02,
+      "end": 23.24
+    },
+    {
+      "word": "ide?",
+      "start": 23.24,
+      "end": 23.48
+    },
+    {
+      "word": "Komen",
+      "start": 24.28,
+      "end": 24.8
+    },
+    {
+      "word": "di",
+      "start": 24.8,
+      "end": 24.98
+    },
+    {
+      "word": "bawah.",
+      "start": 24.98,
+      "end": 25.36
+    }
+  ]
+}

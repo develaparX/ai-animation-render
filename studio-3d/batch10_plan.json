@@ -1,0 +1,14 @@
+{
+  "videos": [
+    {"id": "v06_rokok_paru", "ref": {"user": "abdul_rehman_02", "desc": "smoking effects on lungs 3d human body anatomy", "tag": "anatomy"}, "title": "Sekali Hisap, Paru-parumu Berubah Begini", "scenes": 6, "sfx": "tech"},
+    {"id": "v07_pil_tubuh", "ref": {"user": "dr.healthnut.official", "desc": "What Happens Inside Your Body After You Swallow a Pill, 3D Medical Animation", "tag": "kesehatan"}, "title": "Begitu Kamu Telan Pil Ini, Ini yang Terjadi di Dalam Tubuhmu", "scenes": 6, "sfx": "storm"},
+    {"id": "v08_otak_bicara_negatif", "ref": {"user": "tailopez", "desc": "A psychological truth that you must know", "tag": "psychologyfacts"}, "title": "Otakmu Merekam Semua yang Kamu Katakan ke Diri Sendiri", "scenes": 7, "sfx": "blackhole"},
+    {"id": "v09_orang_pendiam", "ref": {"user": "winnermindset.official", "desc": "11 Psychology Facts About Quiet People", "tag": "psychologyfacts"}, "title": "Kenapa Orang Pendiam Justru Paling Peka?", "scenes": 7, "sfx": "tech"},
+    {"id": "v10_procrastinate2", "ref": {"user": "thebioswitch", "desc": "Why smart people always procrastinate. The Incubation Effect explained", "tag": "psychologyfacts"}, "title": "Menunda Bukan Malas, Ini Cara Otak Menyelesaikan Masalah", "scenes": 7, "sfx": "tech"},
+    {"id": "v11_buah_obat", "ref": {"user": "ruangbelajar_13", "desc": "Buah adalah obat", "tag": "kesehatan"}, "title": "Buah Sederhana Ini Bekerja Seperti Obat di Tubuhmu", "scenes": 6, "sfx": "solar"},
+    {"id": "v12_buah_sahabat_vs_ai", "ref": {"user": "mgengwy", "desc": "fruitstory fruitaidrama aifruit trending", "tag": "ceritaai"}, "title": "Persahabatan Buah yang Tak Terduga", "scenes": 6, "sfx": "storm"},
+    {"id": "v13_ai_cartoon", "ref": {"user": "agtg.pk", "desc": "AICartoon AIAnimation CartoonCharacters", "tag": "aicontent"}, "title": "Kartun AI Ini Terlihat Nyata Sampai Kamu Lupa Ini Buatan", "scenes": 6, "sfx": "tech"},
+    {"id": "v14_ai_story_moral", "ref": {"user": "ai_stories7720", "desc": "She told her son to slap his wife just to see if he'd ask WHY", "tag": "aicontent"}, "title": "Satu Tes Kecil yang Mengungkap Karakter Asli Seseorang", "scenes": 7, "sfx": "blackhole"},
+    {"id": "v15_teknologi_ai", "ref": {"user": "alexytyba5e", "desc": "AIGenerated AIContent AIVideo MadeWithAI", "tag": "aicontent"}, "title": "Begini Cara AI Membuat Video yang Kamu Tonton Setiap Hari", "scenes": 7, "sfx": "solar"}
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "total_dur": 25.3,
+  "segments": [
+    {
+      "id": "hook",
+      "text": "Otakmu merekam semua yang kamu katakan ke diri sendiri.",
+      "dur": 2.394458,
+      "start": 0.06,
+      "end": 2.454
+    },
+    {
+      "id": "record",
+      "text": "Setiap kalimat pedas yang kamu ulang-ulang perlahan jadi pola jalur saraf yang makin kuat.",
+      "dur": 3.759417,
+      "start": 2.654,
+      "end": 6.414
+    },
+    {
+      "id": "alarm",
+      "text": "Sistem waspada di otak ikut menyala, seolah ancaman itu nyata dan selalu dekat.",
+      "dur": 3.965958,
+      "start": 6.664,
+      "end": 10.63
+    },
+    {
+      "id": "body",
+      "text": "Bahu menegang, napas memendek, fokus menyempit — tubuhmu ikut percaya pada kata-katamu.",
+      "dur": 5.203958,
+      "start": 10.88,
+      "end": 16.084
+    },
+    {
+      "id": "flip",
+      "text": "Sebaliknya, kalimat yang tenang dan jelas memberi otak peta baru yang lebih aman.",
+      "dur": 3.84375,
+      "start": 16.334,
+      "end": 20.178
+    },
+    {
+      "id": "habit",
+      "text": "Bukan soal pura-pura bahagia, tapi melatih bahasa batin yang jujur dan menenangkan.",
+      "dur": 4.422333,
+      "start": 20.428,
+      "end": 24.85
+    }
+  ],
+  "words": [
+    {
+      "word": "Otakmu",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "merekam",
+      "start": 0.44,
+      "end": 0.72
+    },
+    {
+      "word": "semua",
+      "start": 0.72,
+      "end": 0.96
+    },
+    {
+      "word": "yang",
+      "start": 0.96,
+      "end": 1.14
+    },
+    {
+      "word": "kamu",
+      "start": 1.14,
+      "end": 1.32
+    },
+    {
+      "word": "katakan",
+      "start": 1.32,
+      "end": 1.68
+    },
+    {
+      "word": "ke",
+      "start": 1.68,
+      "end": 1.82
+    },
+    {
+      "word": "diri",
+      "start": 1.82,
+      "end": 2.0
+    },
+    {
+      "word": "sendiri.",
+      "start": 2.0,
+      "end": 2.22
+    },
+    {
+      "word": "Setiap",
+      "start": 2.7,
+      "end": 3.0
+    },
+    {
+      "word": "kalimat",
+      "start": 3.0,
+      "end": 3.22
+    },
+    {
+      "word": "pedas",
+      "start": 3.22,
+      "end": 3.58
+    },
+    {
+      "word": "yang",
+      "start": 3.58,
+      "end": 3.7
+    },
+    {
+      "word": "kamu",
+      "start": 3.7,
+      "end": 3.94
+    },
+    {
+      "word": "ulang",
+      "start": 3.94,
+      "end": 4.12
+    },
+    {
+      "word": "-ulang",
+      "start": 4.12,
+      "end": 4.28
+    },
+    {
+      "word": "perlahan",
+      "start": 4.28,
+      "end": 4.7
+    },
+    {
+      "word": "jadi",
+      "start": 4.7,
+      "end": 4.9
+    },
+    {
+      "word": "pola",
+      "start": 4.9,
+      "end": 5.14
+    },
+    {
+      "word": "jalur",
+      "start": 5.14,
+      "end": 5.38
+    },
+    {
+      "word": "saraf",
+      "start": 5.38,
+      "end": 5.7
+    },
+    {
+      "word": "yang",
+      "start": 5.7,
+      "end": 5.86
+    },
+    {
+      "word": "makin",
+      "start": 5.86,
+      "end": 6.12
+    },
+    {
+      "word": "kuat.",
+      "start": 6.12,
+      "end": 6.42
+    },
+    {
+      "word": "Sistem",
+      "start": 6.72,
+      "end": 6.96
+    },
+    {
+      "word": "waspada",
+      "start": 6.96,
+      "end": 7.36
+    },
+    {
+      "word": "diota",
+      "start": 7.36,
+      "end": 7.62
+    },
+    {
+      "word": "ikut",
+      "start": 7.62,
+      "end": 7.9
+    },
+    {
+      "word": "menyalah.",
+      "start": 7.9,
+      "end": 8.46
+    },
+    {
+      "word": "Seolah",
+      "start": 8.7,
+      "end": 9.04
+    },
+    {
+      "word": "ancaman",
+      "start": 9.04,
+      "end": 9.3
+    },
+    {
+      "word": "itu",
+      "start": 9.3,
+      "end": 9.48
+    },
+    {
+      "word": "nyata",
+      "start": 9.48,
+      "end": 9.8
+    },
+    {
+      "word": "dan",
+      "start": 9.8,
+      "end": 10.0
+    },
+    {
+      "word": "selalu",
+      "start": 10.0,
+      "end": 10.3
+    },
+    {
+      "word": "dekat.",
+      "start": 10.3,
+      "end": 10.6
+    },
+    {
+      "word": "Bahu",
+      "start": 10.9,
+      "end": 11.14
+    },
+    {
+      "word": "menegang,",
+      "start": 11.14,
+      "end": 11.56
+    },
+    {
+      "word": "napas",
+      "start": 11.96,
+      "end": 12.24
+    },
+    {
+      "word": "memendek,",
+      "start": 12.24,
+      "end": 12.7
+    },
+    {
+      "word": "fokus",
+      "start": 12.98,
+      "end": 13.3
+    },
+    {
+      "word": "menyempit,",
+      "start": 13.3,
+      "end": 13.76
+    },
+    {
+      "word": "tubuhmu",
+      "start": 14.18,
+      "end": 14.52
+    },
+    {
+      "word": "ikut",
+      "start": 14.52,
+      "end": 14.74
+    },
+    {
+      "word": "percaya",
+      "start": 14.74,
+      "end": 15.12
+    },
+    {
+      "word": "pada",
+      "start": 15.12,
+      "end": 15.34
+    },
+    {
+      "word": "katakat",
+      "start": 15.34,
+      "end": 15.74
+    },
+    {
+      "word": "kamu.",
+      "start": 15.74,
+      "end": 15.96
+    },
+    {
+      "word": "Sebaliknya,",
+      "start": 16.38,
+      "end": 16.88
+    },
+    {
+      "word": "kalimat",
+      "start": 17.36,
+      "end": 17.64
+    },
+    {
+      "word": "yang",
+      "start": 17.64,
+      "end": 17.8
+    },
+    {
+      "word": "tenang",
+      "start": 17.8,
+      "end": 18.06
+    },
+    {
+      "word": "dan",
+      "start": 18.06,
+      "end": 18.18
+    },
+    {
+      "word": "jelas",
+      "start": 18.18,
+      "end": 18.46
+    },
+    {
+      "word": "memberi",
+      "start": 18.46,
+      "end": 18.74
+    },
+    {
+      "word": "otak",
+      "start": 18.74,
+      "end": 18.96
+    },
+    {
+      "word": "peta",
+      "start": 18.96,
+      "end": 19.12
+    },
+    {
+      "word": "baru",
+      "start": 19.12,
+      "end": 19.38
+    },
+    {
+      "word": "yang",
+      "start": 19.38,
+      "end": 19.54
+    },
+    {
+      "word": "lebih",
+      "start": 19.54,
+      "end": 19.72
+    },
+    {
+      "word": "aman.",
+      "start": 19.72,
+      "end": 19.98
+    },
+    {
+      "word": "Bukan",
+      "start": 20.4,
+      "end": 20.7
+    },
+    {
+      "word": "soal",
+      "start": 20.7,
+      "end": 20.94
+    },
+    {
+      "word": "pura",
+      "start": 20.94,
+      "end": 21.12
+    },
+    {
+      "word": "-pura",
+      "start": 21.12,
+      "end": 21.24
+    },
+    {
+      "word": "bahagia,",
+      "start": 21.24,
+      "end": 21.7
+    },
+    {
+      "word": "tapi",
+      "start": 22.08,
+      "end": 22.48
+    },
+    {
+      "word": "melati",
+      "start": 22.48,
+      "end": 22.78
+    },
+    {
+      "word": "bahasa",
+      "start": 22.78,
+      "end": 23.1
+    },
+    {
+      "word": "batin",
+      "start": 23.1,
+      "end": 23.44
+    },
+    {
+      "word": "yang",
+      "start": 23.44,
+      "end": 23.56
+    },
+    {
+      "word": "jujur",
+      "start": 23.56,
+      "end": 24.0
+    },
+    {
+      "word": "dan",
+      "start": 24.0,
+      "end": 24.16
+    },
+    {
+      "word": "menenangkan.",
+      "start": 24.16,
+      "end": 24.68
+    }
+  ]
+}

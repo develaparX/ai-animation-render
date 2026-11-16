@@ -1,0 +1,394 @@
+{
+  "total_dur": 27.199,
+  "segments": [
+    {
+      "id": "hook",
+      "text": "Orang pendiam itu bukan cuek, otaknya justru bekerja lebih dalam.",
+      "dur": 3.227167,
+      "start": 0.06,
+      "end": 3.287
+    },
+    {
+      "id": "observe",
+      "text": "Di keramaian, mereka sibuk membaca ekspresi, nada suara, dan bahasa tubuh orang lain.",
+      "dur": 5.412417,
+      "start": 3.487,
+      "end": 8.9
+    },
+    {
+      "id": "process",
+      "text": "Informasi itu diputar ulang di kepala, disaring satu per satu sebelum jadi kata-kata.",
+      "dur": 4.340583,
+      "start": 9.15,
+      "end": 13.49
+    },
+    {
+      "id": "selective",
+      "text": "Makanya mereka jarang bicara, tapi sekali bicara biasanya tepat dan jujur.",
+      "dur": 3.999,
+      "start": 13.74,
+      "end": 17.739
+    },
+    {
+      "id": "energy",
+      "text": "Keramaian menguras baterai mereka, sementara waktu sendirian justru mengisi ulang.",
+      "dur": 4.089292,
+      "start": 17.989,
+      "end": 22.078
+    },
+    {
+      "id": "respect",
+      "text": "Jadi kalau punya teman pendiam, hargai jedanya — di sanalah cara mereka peduli.",
+      "dur": 4.420875,
+      "start": 22.328,
+      "end": 26.749
+    }
+  ],
+  "words": [
+    {
+      "word": "Orang",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "word": "pendiam",
+      "start": 0.26,
+      "end": 0.5
+    },
+    {
+      "word": "itu",
+      "start": 0.5,
+      "end": 0.72
+    },
+    {
+      "word": "bukan",
+      "start": 0.72,
+      "end": 0.88
+    },
+    {
+      "word": "cuek,",
+      "start": 0.88,
+      "end": 1.24
+    },
+    {
+      "word": "otaknya",
+      "start": 1.6,
+      "end": 1.98
+    },
+    {
+      "word": "justru",
+      "start": 1.98,
+      "end": 2.3
+    },
+    {
+      "word": "bekerja",
+      "start": 2.3,
+      "end": 2.64
+    },
+    {
+      "word": "lebih",
+      "start": 2.64,
+      "end": 2.82
+    },
+    {
+      "word": "dalam.",
+      "start": 2.82,
+      "end": 3.08
+    },
+    {
+      "word": "Di",
+      "start": 3.46,
+      "end": 3.66
+    },
+    {
+      "word": "keramaian,",
+      "start": 3.66,
+      "end": 4.06
+    },
+    {
+      "word": "mereka",
+      "start": 4.64,
+      "end": 4.84
+    },
+    {
+      "word": "sibuk",
+      "start": 4.84,
+      "end": 5.16
+    },
+    {
+      "word": "membaca",
+      "start": 5.16,
+      "end": 5.48
+    },
+    {
+      "word": "ekspresi,",
+      "start": 5.48,
+      "end": 6.08
+    },
+    {
+      "word": "nada",
+      "start": 6.4,
+      "end": 6.62
+    },
+    {
+      "word": "suara,",
+      "start": 6.62,
+      "end": 7.0
+    },
+    {
+      "word": "dan",
+      "start": 7.34,
+      "end": 7.62
+    },
+    {
+      "word": "bahasa",
+      "start": 7.62,
+      "end": 7.94
+    },
+    {
+      "word": "tubuh",
+      "start": 7.94,
+      "end": 8.28
+    },
+    {
+      "word": "orang",
+      "start": 8.28,
+      "end": 8.44
+    },
+    {
+      "word": "lain.",
+      "start": 8.44,
+      "end": 8.74
+    },
+    {
+      "word": "Informasi",
+      "start": 9.14,
+      "end": 9.62
+    },
+    {
+      "word": "itu",
+      "start": 9.62,
+      "end": 9.8
+    },
+    {
+      "word": "diputar",
+      "start": 9.8,
+      "end": 10.08
+    },
+    {
+      "word": "ulang",
+      "start": 10.08,
+      "end": 10.28
+    },
+    {
+      "word": "di",
+      "start": 10.28,
+      "end": 10.42
+    },
+    {
+      "word": "kepala,",
+      "start": 10.42,
+      "end": 10.76
+    },
+    {
+      "word": "disaring",
+      "start": 11.28,
+      "end": 11.56
+    },
+    {
+      "word": "satu",
+      "start": 11.56,
+      "end": 11.8
+    },
+    {
+      "word": "persatu",
+      "start": 11.8,
+      "end": 12.24
+    },
+    {
+      "word": "sebelum",
+      "start": 12.24,
+      "end": 12.6
+    },
+    {
+      "word": "jadi",
+      "start": 12.6,
+      "end": 12.8
+    },
+    {
+      "word": "kata",
+      "start": 12.8,
+      "end": 13.04
+    },
+    {
+      "word": "-kata.",
+      "start": 13.04,
+      "end": 13.34
+    },
+    {
+      "word": "Makanya",
+      "start": 13.74,
+      "end": 14.08
+    },
+    {
+      "word": "mereka",
+      "start": 14.08,
+      "end": 14.3
+    },
+    {
+      "word": "jarang",
+      "start": 14.3,
+      "end": 14.58
+    },
+    {
+      "word": "bicara,",
+      "start": 14.58,
+      "end": 14.96
+    },
+    {
+      "word": "tapi",
+      "start": 15.4,
+      "end": 15.72
+    },
+    {
+      "word": "sekali",
+      "start": 15.72,
+      "end": 15.86
+    },
+    {
+      "word": "bicara",
+      "start": 15.86,
+      "end": 16.28
+    },
+    {
+      "word": "biasanya",
+      "start": 16.28,
+      "end": 16.7
+    },
+    {
+      "word": "tepat",
+      "start": 16.7,
+      "end": 17.04
+    },
+    {
+      "word": "dan",
+      "start": 17.04,
+      "end": 17.22
+    },
+    {
+      "word": "jujur.",
+      "start": 17.22,
+      "end": 17.68
+    },
+    {
+      "word": "Keramayan",
+      "start": 18.04,
+      "end": 18.42
+    },
+    {
+      "word": "menguras",
+      "start": 18.42,
+      "end": 18.74
+    },
+    {
+      "word": "baterai",
+      "start": 18.74,
+      "end": 19.08
+    },
+    {
+      "word": "mereka,",
+      "start": 19.08,
+      "end": 19.4
+    },
+    {
+      "word": "sementara",
+      "start": 19.98,
+      "end": 20.36
+    },
+    {
+      "word": "waktu",
+      "start": 20.36,
+      "end": 20.56
+    },
+    {
+      "word": "sendirian",
+      "start": 20.56,
+      "end": 20.98
+    },
+    {
+      "word": "justru",
+      "start": 20.98,
+      "end": 21.36
+    },
+    {
+      "word": "mengisi",
+      "start": 21.36,
+      "end": 21.62
+    },
+    {
+      "word": "ulang.",
+      "start": 21.62,
+      "end": 21.98
+    },
+    {
+      "word": "Jadi",
+      "start": 22.32,
+      "end": 22.6
+    },
+    {
+      "word": "kalau",
+      "start": 22.6,
+      "end": 22.8
+    },
+    {
+      "word": "punya",
+      "start": 22.8,
+      "end": 23.04
+    },
+    {
+      "word": "teman",
+      "start": 23.04,
+      "end": 23.26
+    },
+    {
+      "word": "pendiam,",
+      "start": 23.26,
+      "end": 23.64
+    },
+    {
+      "word": "harga",
+      "start": 24.18,
+      "end": 24.4
+    },
+    {
+      "word": "jedanya,",
+      "start": 24.4,
+      "end": 24.8
+    },
+    {
+      "word": "bisa",
+      "start": 25.3,
+      "end": 25.54
+    },
+    {
+      "word": "nalah",
+      "start": 25.54,
+      "end": 25.8
+    },
+    {
+      "word": "cara",
+      "start": 25.8,
+      "end": 26.02
+    },
+    {
+      "word": "mereka",
+      "start": 26.02,
+      "end": 26.24
+    },
+    {
+      "word": "peduli.",
+      "start": 26.24,
+      "end": 26.56
+    }
+  ]
+}

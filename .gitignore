@@ -1,0 +1,17 @@
+node_modules/
+build/
+out/
+studio-3d/node_modules/
+studio-3d/out/
+studio-3d/preview/
+projects/*/build/
+projects/*/out/
+projects/*/input/*.wav
+projects/*/input/*.mp3
+*.mp4
+*.wav
+*.mp3
+*.tmp
+__pycache__/
+*.pyc
+.DS_Store

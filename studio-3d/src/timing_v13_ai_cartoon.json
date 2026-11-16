@@ -1,0 +1,394 @@
+{
+  "total_dur": 26.208,
+  "segments": [
+    {
+      "id": "hook",
+      "text": "Kartun ini terlihat nyata sampai kamu lupa kalau ini buatan AI.",
+      "dur": 2.868583,
+      "start": 0.06,
+      "end": 2.929
+    },
+    {
+      "id": "sketch",
+      "text": "Semuanya bermula dari sketsa kasar dan beberapa kata perintah sederhana.",
+      "dur": 3.425875,
+      "start": 3.129,
+      "end": 6.554
+    },
+    {
+      "id": "rig",
+      "text": "Lalu AI membangun kerangka gerak, mengisi warna, cahaya, dan bayangan frame demi frame.",
+      "dur": 5.179,
+      "start": 6.804,
+      "end": 11.983
+    },
+    {
+      "id": "motion",
+      "text": "Setiap kedipan, lambaian, dan langkah dihitung supaya terasa hidup dan konsisten.",
+      "dur": 4.836708,
+      "start": 12.233,
+      "end": 17.07
+    },
+    {
+      "id": "polish",
+      "text": "Terakhir ditambahkan musik, suara, dan ritme potongan yang bikin betah nonton.",
+      "dur": 4.33825,
+      "start": 17.32,
+      "end": 21.658
+    },
+    {
+      "id": "craft",
+      "text": "Di balik tiga puluh detik yang mulus, ada ribuan keputusan kecil yang dirapikan.",
+      "dur": 3.85,
+      "start": 21.908,
+      "end": 25.758
+    }
+  ],
+  "words": [
+    {
+      "word": "Kartun",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "ini",
+      "start": 0.36,
+      "end": 0.52
+    },
+    {
+      "word": "terlihat",
+      "start": 0.52,
+      "end": 0.88
+    },
+    {
+      "word": "nyata",
+      "start": 0.88,
+      "end": 1.14
+    },
+    {
+      "word": "sampai",
+      "start": 1.14,
+      "end": 1.42
+    },
+    {
+      "word": "kamu",
+      "start": 1.42,
+      "end": 1.62
+    },
+    {
+      "word": "lupa",
+      "start": 1.62,
+      "end": 1.88
+    },
+    {
+      "word": "kalau",
+      "start": 1.88,
+      "end": 2.1
+    },
+    {
+      "word": "ini",
+      "start": 2.1,
+      "end": 2.28
+    },
+    {
+      "word": "buatan",
+      "start": 2.28,
+      "end": 2.62
+    },
+    {
+      "word": "AI.",
+      "start": 2.62,
+      "end": 2.8
+    },
+    {
+      "word": "Semuanya",
+      "start": 3.14,
+      "end": 3.52
+    },
+    {
+      "word": "bermula",
+      "start": 3.52,
+      "end": 3.92
+    },
+    {
+      "word": "dari",
+      "start": 3.92,
+      "end": 4.12
+    },
+    {
+      "word": "sketsa",
+      "start": 4.12,
+      "end": 4.46
+    },
+    {
+      "word": "kasar",
+      "start": 4.46,
+      "end": 4.82
+    },
+    {
+      "word": "dan",
+      "start": 4.82,
+      "end": 5.0
+    },
+    {
+      "word": "beberapa",
+      "start": 5.0,
+      "end": 5.36
+    },
+    {
+      "word": "kata",
+      "start": 5.36,
+      "end": 5.58
+    },
+    {
+      "word": "perintah",
+      "start": 5.58,
+      "end": 5.96
+    },
+    {
+      "word": "sederhana.",
+      "start": 5.96,
+      "end": 6.36
+    },
+    {
+      "word": "Lalu",
+      "start": 6.78,
+      "end": 7.04
+    },
+    {
+      "word": "air",
+      "start": 7.04,
+      "end": 7.2
+    },
+    {
+      "word": "membangun",
+      "start": 7.2,
+      "end": 7.58
+    },
+    {
+      "word": "kerangka",
+      "start": 7.58,
+      "end": 7.86
+    },
+    {
+      "word": "gerak,",
+      "start": 7.86,
+      "end": 8.16
+    },
+    {
+      "word": "mengisi",
+      "start": 8.5,
+      "end": 8.74
+    },
+    {
+      "word": "warna,",
+      "start": 8.74,
+      "end": 9.14
+    },
+    {
+      "word": "cahaya,",
+      "start": 9.5,
+      "end": 9.94
+    },
+    {
+      "word": "dan",
+      "start": 10.54,
+      "end": 10.6
+    },
+    {
+      "word": "bayangan",
+      "start": 10.6,
+      "end": 10.92
+    },
+    {
+      "word": "frame",
+      "start": 10.92,
+      "end": 11.24
+    },
+    {
+      "word": "demi",
+      "start": 11.24,
+      "end": 11.46
+    },
+    {
+      "word": "frame.",
+      "start": 11.46,
+      "end": 11.82
+    },
+    {
+      "word": "Setiap",
+      "start": 12.22,
+      "end": 12.56
+    },
+    {
+      "word": "kedipan,",
+      "start": 12.56,
+      "end": 13.0
+    },
+    {
+      "word": "lambayan,",
+      "start": 13.42,
+      "end": 13.88
+    },
+    {
+      "word": "dan",
+      "start": 14.5,
+      "end": 14.54
+    },
+    {
+      "word": "langkah",
+      "start": 14.54,
+      "end": 14.86
+    },
+    {
+      "word": "di",
+      "start": 14.86,
+      "end": 14.96
+    },
+    {
+      "word": "hitung",
+      "start": 14.96,
+      "end": 15.18
+    },
+    {
+      "word": "supaya",
+      "start": 15.18,
+      "end": 15.54
+    },
+    {
+      "word": "terasa",
+      "start": 15.54,
+      "end": 15.82
+    },
+    {
+      "word": "hidup",
+      "start": 15.82,
+      "end": 16.16
+    },
+    {
+      "word": "dan",
+      "start": 16.16,
+      "end": 16.32
+    },
+    {
+      "word": "konsisten.",
+      "start": 16.32,
+      "end": 16.86
+    },
+    {
+      "word": "Terakhir",
+      "start": 17.34,
+      "end": 17.64
+    },
+    {
+      "word": "ditambahkan",
+      "start": 17.64,
+      "end": 18.12
+    },
+    {
+      "word": "musik,",
+      "start": 18.12,
+      "end": 18.52
+    },
+    {
+      "word": "suara,",
+      "start": 18.84,
+      "end": 19.2
+    },
+    {
+      "word": "dan",
+      "start": 19.64,
+      "end": 19.86
+    },
+    {
+      "word": "ritme",
+      "start": 19.86,
+      "end": 20.1
+    },
+    {
+      "word": "potongan",
+      "start": 20.1,
+      "end": 20.5
+    },
+    {
+      "word": "yang",
+      "start": 20.5,
+      "end": 20.64
+    },
+    {
+      "word": "bikin",
+      "start": 20.64,
+      "end": 20.92
+    },
+    {
+      "word": "betah",
+      "start": 20.92,
+      "end": 21.12
+    },
+    {
+      "word": "nonton.",
+      "start": 21.12,
+      "end": 21.44
+    },
+    {
+      "word": "Di",
+      "start": 21.94,
+      "end": 22.08
+    },
+    {
+      "word": "balik",
+      "start": 22.08,
+      "end": 22.28
+    },
+    {
+      "word": "30",
+      "start": 22.28,
+      "end": 22.64
+    },
+    {
+      "word": "detik",
+      "start": 22.64,
+      "end": 22.9
+    },
+    {
+      "word": "yang",
+      "start": 22.9,
+      "end": 23.0
+    },
+    {
+      "word": "mulus,",
+      "start": 23.0,
+      "end": 23.4
+    },
+    {
+      "word": "ada",
+      "start": 23.76,
+      "end": 23.96
+    },
+    {
+      "word": "ribuan",
+      "start": 23.96,
+      "end": 24.22
+    },
+    {
+      "word": "keputusan",
+      "start": 24.22,
+      "end": 24.66
+    },
+    {
+      "word": "kecil",
+      "start": 24.66,
+      "end": 24.98
+    },
+    {
+      "word": "yang",
+      "start": 24.98,
+      "end": 25.12
+    },
+    {
+      "word": "dirapikan.",
+      "start": 25.12,
+      "end": 25.54
+    }
+  ]
+}
