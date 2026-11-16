@@ -15,12 +15,14 @@ example-prompt: Buat video stick-2d tentang pajak warga dengan watermark @akunsa
 # Animasi 2D Stick Maen (`stick-2d`) — Gaya Terkunci `@garishidup.idn` v2.1 (CPU-only)
 
 > **TRIGGER TERKUNCI (`stick-2d`)**: Setiap kali user meminta **`stick-2d`**, **`stick 2d`**, **`2d stick`**, atau **`animasi-2d-stick-maen`**, langsung gunakan **Gaya Terkunci `@garishidup.idn` v2.1** (12 beat naratif, figur kapsul 3D-shaded + refleksi lantai, rotasi 6 arsitektur panggung Layout A–F, 12 widget v2.1, *Delayed Headline Reveal*, subtitle burn-in `gap = 0.46 * sz`, dan **watermark bebas sesuai permintaan user, tidak dipatenkan**).
-> Kit utama tersimpan di repositori `ai-animation-render`.
+> Kit utama = **root repo `ai-animation-render`** ini (`engine/`, `audio/`, `tools/`, `render.mjs`).
+> Proyek contoh hidup: `examples/gh-v11-telat-lima-menit/`. Kalau repo di-clone ke folder lain,
+> ganti `projects/<slug>` pada perintah di bawah menjadi `examples/<slug>` atau path proyek Anda.
 
 ## Kesiapan lingkungan & resource (cek dulu)
-1. `python tools/doctor.py` di folder studio — semua OK baru lanjut. Fix otomatis: `python tools/doctor.py --install`.
+1. `python tools/doctor.py` di root repo — semua OK baru lanjut. Fix otomatis: `python tools/doctor.py --install`.
 2. Verifikasi kit `29/29`. Jika timing/subtitle meleset, pulihkan `tools/transcribe.py` dari sumber plugin (versi usang bisa menggeser timing kata).
-3. ffmpeg PATH Windows: `C:\Users\Admin\tools\ffmpeg-9.0.2-essentials_build\bin` (tambahkan ke PATH sesi jika doctor komplain).
+3. ffmpeg di PATH sesi (Windows contoh: `C:\Users\Admin\tools\ffmpeg-9.0.2-essentials_build\bin`; tambahkan ke `$env:PATH` jika doctor komplain).
 4. Mesin CPU-only (contoh: AMD EPYC 7351P 4 core, 8 GB RAM, tanpa GPU): jalankan **maksimal 1 job render berat sekaligus** dan batasi concurrency (mis. `--workers 1-2` sesuai beban, jangan paralelkan render lain). 720p @24fps ±2 frame/s per worker (`--format jpeg --preset veryfast` ~7.5 fps). SELALU render di background (poling log), jangan foreground.
 5. Aturan resource OpenBot berlaku: render throttled/detached bila perlu; pantau dengan Routine; hapus routine setelah selesai.
 
@@ -34,15 +36,30 @@ Cantumkan `voice: <nama> (alasan)` di header storyboard. Bahasa Indonesia otomat
 2. 429/RESOURCE_EXHAUSTED di semua model (retry 2x/model, backoff 5s/15s) → fallback edge-tts (`edge-tts --voice id-ID-ArdiNeural|id-ID-GadisNeural --rate=+24%`). Catat "voice: edge-tts (Gemini habis)" di README job. JANGAN batal.
 3. Post: trim, atempo 1.25-1.3x (target ≥3 kata/detik), gap 0.3-0.5s, concat → `public/<nama>.mp3` atau `input/voiceover.wav`.
 
-## Pipeline studio GrowKaz (video 2D stick)
+## Pipeline studio (video 2D stick)
 1. **Naskah** (55-90 s): hook ≤6.5 s → setup → 3-5 beat eskalasi (angka konkret) → snap → deadpan "Untungnya/Sayangnya" → penjelasan analogi/blueprint → aturan → callback. Fakta+sumber di atas `SCRIPT.md`.
 2. **Storyboard** `STORYBOARD_<Kxx>.md`: tabel shot (detik, shot/kamera, aksi) + field voice. Ikuti aturan wajib di bawah.
 3. **Buat project**: `python tools/new_project.py --name <slug> --voice "<wav>" --script "<txt>" --aspect 9:16 --resolution 720p --title "<judul>" --captions`, lalu `python tools/transcribe.py` (id, model small) dan `python tools/beats.py`.
 4. **Bible + cast + shots**: tulis `story/bible.md`, `scenes/cast.js` (1 warna khas/karakter), rewrite `story/shots.json` (kontigu, median 2-3.5 s, potong 0.1-0.2 s sebelum frasa).
-5. **Style + build shot**: render style grid (`node render.mjs --styles ... --scale 0.5`), pilih 1, bangun `scenes/sets/*.js` + `scenes/shots/NN_*.js` (API: rig2d, fx2d, ui2d, three-kit, garishidup). Baca `references/style-bible.md` + `engine-api.md`.
+5. **Style + build shot**: render style grid (`node render.mjs --styles ... --scale 0.5`), pilih 1, bangun `scenes/sets/*.js` + `scenes/shots/NN_*.js` (API: rig2d, fx2d, ui2d, garishidup). Baca `references/style-bible-2d.md` + `references/engine-api-2d.md`.
 6. **Sheet QC**: `node render.mjs --project projects/<slug> --sheet --scale 0.5` → LIHAT sheet PNG (rim light, mood, kamera bergerak, no MISSING). Perbaiki sebelum final. Untuk UI/grafik/chart/kartu data yang harus pixel-perfect, render bagian tersebut via HyperFrames lalu gabungkan ke hasil.
 7. **Sound**: isi `music`/`sfx`/`amb`; mix `python audio/mix.py` (duck -9 dB, -14 LUFS).
-8. **Render final + kirim**: render final di background (1 job berat sekaligus, concurrency terbatas); QA ffprobe + contact sheet; kompres WA `ffmpeg -crf 28 scale=720:-2` (≤12 MB); kirim `openbot.messaging_post` per nomor + arsip `Shared/wa-send/`; lampirkan asli bila diminta; hapus routine pemantau.
+8. **Render final + kirim**: render final di background (1 job berat sekaligus, concurrency terbatas); QA ffprobe + contact sheet; kompres WA `ffmpeg -crf 28 scale=720:-2` (≤12 MB); kirim `openbot.messaging_post` per nomor + arsip folder kirim; lampirkan asli bila diminta; hapus routine pemantau.
+
+## Design Thinking (wajib, lihat `design-thinking/README.md`)
+```ts
+Production (2D):
+ShapeNaskah (shapes: Beat2D, FigureRole, Widget, Caption)
+  → A: SCRIPT.md → voice → timeline (transcribe+beats) → bible+shots → sets+shots
+    → R: ffmpeg / Chromium / edge-tts / font / render_throttled
+      → E: TTS 429 | timing meleset | readout bocor ke band caption | render crash
+        → Swap R: sheet 12 panel (1-2 mnt) MENGGANTIKAN render penuh (4 mnt)
+          → Scope: browser context ditutup per job; 1 job render berat
+            → A/E pisah: draw() hanya menggambar; retry/log di runner python
+```
+Pemetaan gaya 2D ke langkah: **Shapes** = `Beat2D`/`FigureRole`/`Widget`;
+**Kardinalitas** = 1 hero + 0-2 pendukung per beat, 1 panggung per beat;
+**Boundary** = `words.json` + `shots.json` divalidasi di tepi sebelum render.
 
 ## Aturan WAJIB warisan (berlaku di gaya 2D)
 1. **Kaki beranimasi saat berjalan**: jangan pose statis digeser; verifikasi 2 still kiri/kanan.
@@ -99,10 +116,12 @@ Cantumkan `voice: <nama> (alasan)` di header storyboard. Bahasa Indonesia otomat
       - `GH.scoreboard(g, 4, 3, { leftLabel: 'KAMI', rightLabel: 'TAMU', sub: 'TRIBUN PENUH' })`
 
 ## Cara berpikir: Design Thinking (call graph)
-1. Definisikan shape & happy path (A) dulu: `SCRIPT → voice → timeline (transcribe+beats) → bible+shots → sets+shots → sheet QC → render → mix → kompres → WA`.
-2. Pisahkan error (E): 429 TTS → retry lalu fallback edge-tts; render crash → lapor; GPU stall → retry.
-3. Deklarasi kebutuhan (R): ffmpeg, Chromium, koneksi WA. Batasi scope: render background, cleanup terstruktur.
+Ringkas; standar lengkap ada di `design-thinking/README.md` dan blok Design Thinking di atas.
+1. Definisikan shape & happy path (A) dulu: `SCRIPT → voice → timeline (transcribe+beats) → bible+shots → sets+shots → sheet QC → render → mix → kompres → kirim`.
+2. Pisahkan error (E): 429 TTS → retry lalu fallback edge-tts; render crash → lapor; WebGL/Chromium stall → retry sekali lalu ganti metode.
+3. Deklarasi kebutuhan (R): ffmpeg, Chromium, akun pengirim. Batasi scope: render background, cleanup terstruktur.
 4. Boundary: parse/validasi input eksternal (wav/json/captions/timing) di tepi.
+5. Swap R: sheet dulu, render penuh belakangan.
 
 ## Anti-pattern
 - Render foreground atau >1 render berat paralel di mesin CPU-only; selalu background, 1 job, concurrency terbatas.
@@ -112,9 +131,10 @@ Cantumkan `voice: <nama> (alasan)` di header storyboard. Bahasa Indonesia otomat
 - Kuota Gemini habis lalu berhenti; padahal edge-tts gratis.
 - Kapasitas: jangan 4K; 720p cukup untuk WhatsApp.
 - Prefix instruksi TTS ikut terucap → deteksi (Whisper) dan potong, lalu re-timing.
-- Abaikan API engine (signature UI/poly/FX, import) → baca `engine-api.md` dulu.
+- Abaikan API engine (signature UI/poly/FX, import) → baca `references/engine-api-2d.md` dulu.
 - Playwright Chromium Windows rusak/macet instal → perbaiki instalasi/executable path sesuai kebutuhan.
 - Readout/label di band caption (y>72% H, 9:16) atau posisi lanskap dipaksa ke vertikal tanpa `V(h,v)`.
+- Mencampur gaya 3D dan 2D dalam satu video; pilih satu skill, kecuali sengaja dibuat sebagai cutaway.
 
 ## Verifikasi sukses
 - [ ] doctor.py OK, kit 29/29.
@@ -122,5 +142,5 @@ Cantumkan `voice: <nama> (alasan)` di header storyboard. Bahasa Indonesia otomat
 - [ ] Sheet QC dilihat: no MISSING/ERROR, rim light, mood konsisten, UI/chart pixel-perfect (HyperFrames bila perlu) tanpa tabrakan.
 - [ ] mp4 final: durasi ≈ shots.json, audio ada, -14 LUFS.
 - [ ] Subtitle tampil & sinkron, kaki jalan natural, ilustrasi fisika jelas, snap CU.
-- [ ] Kirim WA sukses ke semua nomor + arsip wa-send (asli & versi WA).
+- [ ] Pengiriman sukses ke semua nomor + arsip versi kirim (asli & versi WhatsApp).
 - [ ] Routine pemantau dihapus.

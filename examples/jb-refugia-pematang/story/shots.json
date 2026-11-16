@@ -1,0 +1,260 @@
+{
+ "title": "Kenapa Petani Ini Sengaja Menanam Bunga di Pematang Sawah?",
+ "duration": 62.332,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 6.866,
+   "line": "Di sawah ini, setiap pematang sengaja ditanami bunga. Bukan padi, bukan sayur, tapi bunga berwarna-warni.",
+   "scene": "jb_b1_hook_bunga_pematang",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "Beat 1/9 gh3d hybrid"
+  },
+  {
+   "id": "s002",
+   "start": 7.236,
+   "end": 12.904,
+   "line": "Juragan Darto yang punya sawah sebelah malah menertawakan. Pematang itu tempatnya buat jalan, katanya.",
+   "scene": "jb_b2_darto_tertawa",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -10
+    },
+    {
+     "at": 1.9,
+     "name": "hit",
+     "gain": -9
+    }
+   ],
+   "notes": "Beat 2/9 gh3d hybrid"
+  },
+  {
+   "id": "s003",
+   "start": 13.274,
+   "end": 17.291,
+   "line": "Kenapa malah dipupuk dan disiram tiap pagi? Petani itu cuma senyum.",
+   "scene": "jb_b3_petani_senyum_daun",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -9
+    },
+    {
+     "at": 2.0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "notes": "Beat 3/9 gh3d hybrid"
+  },
+  {
+   "id": "s004",
+   "start": 17.666,
+   "end": 24.807,
+   "line": "Dia menunjuk ke rumpun padi, lalu memetik satu daun yang berlubang. Beberapa minggu kemudian, sawah Juragan Darto diserang wereng.",
+   "scene": "jb_b4_wereng_serang",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "buzz",
+     "gain": -8
+    },
+    {
+     "at": 1.8,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "notes": "Beat 4/9 gh3d hybrid"
+  },
+  {
+   "id": "s005",
+   "start": 25.18,
+   "end": 30.976,
+   "line": "Daunnya menguning, batangnya roboh satu per satu. Sementara sawah berbunga di sebelahnya tetap hijau.",
+   "scene": "jb_b5_sawah_tetap_hijau",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "shimmer",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "notes": "Beat 5/9 gh3d hybrid"
+  },
+  {
+   "id": "s006",
+   "start": 31.346,
+   "end": 36.774,
+   "line": "Tidak ada satu petak pun yang roboh. Ini bukan kebetulan. Namanya refugia.",
+   "scene": "jb_b6_refugia_penjelasan",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -9
+    },
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -9
+    }
+   ],
+   "notes": "Beat 6/9 gh3d hybrid"
+  },
+  {
+   "id": "s007",
+   "start": 37.14,
+   "end": 45.234,
+   "line": "Bunga di pematang sengaja ditanam sebagai rumah musuh alami hama. Lebah, capung, laba-laba, dan kepik datang ke bunga itu untuk makan nektar.",
+   "scene": "jb_b7_serangga_datang",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "Beat 7/9 gh3d hybrid"
+  },
+  {
+   "id": "s008",
+   "start": 45.604,
+   "end": 54.609,
+   "line": "Begitu populasi hama naik, mereka sudah ada di tempat. Bahkan sebelum padi ditanam, refugia sudah harus berbunga dulu. Itu aturan dari penyuluh pertanian.",
+   "scene": "jb_b8_aturan_penyuluh",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -10
+    },
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -9
+    }
+   ],
+   "notes": "Beat 8/9 gh3d hybrid"
+  },
+  {
+   "id": "s009",
+   "start": 54.979,
+   "end": 62.332,
+   "line": "Jadi pematang yang terlihat sibuk dengan bunga, sebenarnya sedang bekerja sebagai pagar hidup. Bukan buang tempat, tapi memasang penjaga.",
+   "scene": "jb_b9_pagar_hidup_payoff",
+   "set": "gh3d",
+   "bars": null,
+   "in": {
+    "type": "cut",
+    "dur": 0.22
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 2.6,
+     "name": "shimmer",
+     "gain": -9
+    }
+   ],
+   "notes": "Beat 9/9 gh3d hybrid"
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 26.18,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 26.18,
+   "end": 38.65,
+   "mood": "tension",
+   "intensity": 0.62
+  },
+  {
+   "start": 38.65,
+   "end": 62.332,
+   "mood": "hopeful",
+   "intensity": 0.55
+  }
+ ]
+}

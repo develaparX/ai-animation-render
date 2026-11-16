@@ -1,0 +1,750 @@
+{
+ "source": "edge-tts:WordBoundary+script",
+ "words": [
+  {
+   "word": "Di",
+   "start": 0.096,
+   "end": 0.223
+  },
+  {
+   "word": "sawah",
+   "start": 0.223,
+   "end": 0.446
+  },
+  {
+   "word": "ini,",
+   "start": 0.446,
+   "end": 0.848
+  },
+  {
+   "word": "setiap",
+   "start": 1.071,
+   "end": 1.357
+  },
+  {
+   "word": "pematang",
+   "start": 1.357,
+   "end": 1.664
+  },
+  {
+   "word": "sengaja",
+   "start": 1.664,
+   "end": 2.035
+  },
+  {
+   "word": "ditanami",
+   "start": 2.035,
+   "end": 2.395
+  },
+  {
+   "word": "bunga.",
+   "start": 2.395,
+   "end": 2.808
+  },
+  {
+   "word": "Bukan",
+   "start": 3.51,
+   "end": 3.807
+  },
+  {
+   "word": "padi,",
+   "start": 3.807,
+   "end": 4.241
+  },
+  {
+   "word": "bukan",
+   "start": 4.474,
+   "end": 4.739
+  },
+  {
+   "word": "sayur,",
+   "start": 4.739,
+   "end": 5.205
+  },
+  {
+   "word": "tapi",
+   "start": 5.406,
+   "end": 5.618
+  },
+  {
+   "word": "bunga",
+   "start": 5.618,
+   "end": 5.841
+  },
+  {
+   "word": "berwarna-warni.",
+   "start": 5.841,
+   "end": 6.646
+  },
+  {
+   "word": "Juragan",
+   "start": 7.356,
+   "end": 7.737
+  },
+  {
+   "word": "Darto",
+   "start": 7.737,
+   "end": 8.002
+  },
+  {
+   "word": "yang",
+   "start": 8.002,
+   "end": 8.129
+  },
+  {
+   "word": "punya",
+   "start": 8.129,
+   "end": 8.309
+  },
+  {
+   "word": "sawah",
+   "start": 8.309,
+   "end": 8.616
+  },
+  {
+   "word": "sebelah",
+   "start": 8.616,
+   "end": 8.891
+  },
+  {
+   "word": "malah",
+   "start": 8.892,
+   "end": 9.082
+  },
+  {
+   "word": "menertawakan.",
+   "start": 9.082,
+   "end": 9.803
+  },
+  {
+   "word": "Pematang",
+   "start": 10.512,
+   "end": 10.788
+  },
+  {
+   "word": "itu",
+   "start": 10.788,
+   "end": 10.978
+  },
+  {
+   "word": "tempatnya",
+   "start": 10.978,
+   "end": 11.328
+  },
+  {
+   "word": "buat",
+   "start": 11.328,
+   "end": 11.476
+  },
+  {
+   "word": "jalan,",
+   "start": 11.476,
+   "end": 11.953
+  },
+  {
+   "word": "katanya.",
+   "start": 12.133,
+   "end": 12.684
+  },
+  {
+   "word": "Kenapa",
+   "start": 13.394,
+   "end": 13.711
+  },
+  {
+   "word": "malah",
+   "start": 13.711,
+   "end": 13.892
+  },
+  {
+   "word": "dipupuk",
+   "start": 13.892,
+   "end": 14.262
+  },
+  {
+   "word": "dan",
+   "start": 14.262,
+   "end": 14.379
+  },
+  {
+   "word": "disiram",
+   "start": 14.379,
+   "end": 14.644
+  },
+  {
+   "word": "tiap",
+   "start": 14.644,
+   "end": 14.803
+  },
+  {
+   "word": "pagi?",
+   "start": 14.803,
+   "end": 15.226
+  },
+  {
+   "word": "Petani",
+   "start": 15.938,
+   "end": 16.245
+  },
+  {
+   "word": "itu",
+   "start": 16.245,
+   "end": 16.446
+  },
+  {
+   "word": "cuma",
+   "start": 16.446,
+   "end": 16.626
+  },
+  {
+   "word": "senyum.",
+   "start": 16.627,
+   "end": 17.071
+  },
+  {
+   "word": "Dia",
+   "start": 17.786,
+   "end": 17.945
+  },
+  {
+   "word": "menunjuk",
+   "start": 17.945,
+   "end": 18.273
+  },
+  {
+   "word": "ke",
+   "start": 18.273,
+   "end": 18.326
+  },
+  {
+   "word": "rumpun",
+   "start": 18.326,
+   "end": 18.559
+  },
+  {
+   "word": "padi,",
+   "start": 18.559,
+   "end": 18.983
+  },
+  {
+   "word": "lalu",
+   "start": 19.258,
+   "end": 19.481
+  },
+  {
+   "word": "memetik",
+   "start": 19.481,
+   "end": 19.756
+  },
+  {
+   "word": "satu",
+   "start": 19.756,
+   "end": 19.968
+  },
+  {
+   "word": "daun",
+   "start": 19.968,
+   "end": 20.233
+  },
+  {
+   "word": "yang",
+   "start": 20.233,
+   "end": 20.36
+  },
+  {
+   "word": "berlubang.",
+   "start": 20.36,
+   "end": 20.9
+  },
+  {
+   "word": "Beberapa",
+   "start": 21.621,
+   "end": 21.96
+  },
+  {
+   "word": "minggu",
+   "start": 21.96,
+   "end": 22.172
+  },
+  {
+   "word": "kemudian,",
+   "start": 22.172,
+   "end": 22.722
+  },
+  {
+   "word": "sawah",
+   "start": 22.977,
+   "end": 23.252
+  },
+  {
+   "word": "Juragan",
+   "start": 23.252,
+   "end": 23.581
+  },
+  {
+   "word": "Darto",
+   "start": 23.581,
+   "end": 23.867
+  },
+  {
+   "word": "diserang",
+   "start": 23.867,
+   "end": 24.184
+  },
+  {
+   "word": "wereng.",
+   "start": 24.184,
+   "end": 24.587
+  },
+  {
+   "word": "Daunnya",
+   "start": 25.3,
+   "end": 25.661
+  },
+  {
+   "word": "menguning,",
+   "start": 25.661,
+   "end": 26.158
+  },
+  {
+   "word": "batangnya",
+   "start": 26.392,
+   "end": 26.794
+  },
+  {
+   "word": "roboh",
+   "start": 26.794,
+   "end": 27.017
+  },
+  {
+   "word": "satu",
+   "start": 27.017,
+   "end": 27.218
+  },
+  {
+   "word": "per",
+   "start": 27.218,
+   "end": 27.313
+  },
+  {
+   "word": "satu.",
+   "start": 27.313,
+   "end": 27.769
+  },
+  {
+   "word": "Sementara",
+   "start": 28.478,
+   "end": 28.87
+  },
+  {
+   "word": "sawah",
+   "start": 28.87,
+   "end": 29.114
+  },
+  {
+   "word": "berbunga",
+   "start": 29.114,
+   "end": 29.485
+  },
+  {
+   "word": "di",
+   "start": 29.485,
+   "end": 29.548
+  },
+  {
+   "word": "sebelahnya",
+   "start": 29.548,
+   "end": 30.004
+  },
+  {
+   "word": "tetap",
+   "start": 30.004,
+   "end": 30.258
+  },
+  {
+   "word": "hijau.",
+   "start": 30.258,
+   "end": 30.756
+  },
+  {
+   "word": "Tidak",
+   "start": 31.466,
+   "end": 31.688
+  },
+  {
+   "word": "ada",
+   "start": 31.688,
+   "end": 31.858
+  },
+  {
+   "word": "satu",
+   "start": 31.858,
+   "end": 32.059
+  },
+  {
+   "word": "petak",
+   "start": 32.059,
+   "end": 32.271
+  },
+  {
+   "word": "pun",
+   "start": 32.271,
+   "end": 32.408
+  },
+  {
+   "word": "yang",
+   "start": 32.408,
+   "end": 32.525
+  },
+  {
+   "word": "roboh.",
+   "start": 32.525,
+   "end": 32.98
+  },
+  {
+   "word": "Ini",
+   "start": 33.692,
+   "end": 33.978
+  },
+  {
+   "word": "bukan",
+   "start": 33.978,
+   "end": 34.211
+  },
+  {
+   "word": "kebetulan.",
+   "start": 34.211,
+   "end": 34.815
+  },
+  {
+   "word": "Namanya",
+   "start": 35.527,
+   "end": 35.961
+  },
+  {
+   "word": "refugia.",
+   "start": 35.961,
+   "end": 36.554
+  },
+  {
+   "word": "Bunga",
+   "start": 37.26,
+   "end": 37.514
+  },
+  {
+   "word": "di",
+   "start": 37.514,
+   "end": 37.578
+  },
+  {
+   "word": "pematang",
+   "start": 37.578,
+   "end": 37.928
+  },
+  {
+   "word": "sengaja",
+   "start": 37.928,
+   "end": 38.267
+  },
+  {
+   "word": "ditanam",
+   "start": 38.267,
+   "end": 38.627
+  },
+  {
+   "word": "sebagai",
+   "start": 38.627,
+   "end": 38.944
+  },
+  {
+   "word": "rumah",
+   "start": 38.944,
+   "end": 39.146
+  },
+  {
+   "word": "musuh",
+   "start": 39.146,
+   "end": 39.4
+  },
+  {
+   "word": "alami",
+   "start": 39.4,
+   "end": 39.622
+  },
+  {
+   "word": "hama.",
+   "start": 39.622,
+   "end": 40.014
+  },
+  {
+   "word": "Lebah,",
+   "start": 40.724,
+   "end": 41.243
+  },
+  {
+   "word": "capung,",
+   "start": 41.466,
+   "end": 41.953
+  },
+  {
+   "word": "laba-laba,",
+   "start": 42.165,
+   "end": 42.822
+  },
+  {
+   "word": "dan",
+   "start": 43.065,
+   "end": 43.267
+  },
+  {
+   "word": "kepik",
+   "start": 43.267,
+   "end": 43.457
+  },
+  {
+   "word": "datang",
+   "start": 43.457,
+   "end": 43.711
+  },
+  {
+   "word": "ke",
+   "start": 43.711,
+   "end": 43.764
+  },
+  {
+   "word": "bunga",
+   "start": 43.764,
+   "end": 43.934
+  },
+  {
+   "word": "itu",
+   "start": 43.934,
+   "end": 44.167
+  },
+  {
+   "word": "untuk",
+   "start": 44.167,
+   "end": 44.368
+  },
+  {
+   "word": "makan",
+   "start": 44.368,
+   "end": 44.569
+  },
+  {
+   "word": "nektar.",
+   "start": 44.569,
+   "end": 45.014
+  },
+  {
+   "word": "Begitu",
+   "start": 45.724,
+   "end": 46.053
+  },
+  {
+   "word": "populasi",
+   "start": 46.053,
+   "end": 46.423
+  },
+  {
+   "word": "hama",
+   "start": 46.423,
+   "end": 46.593
+  },
+  {
+   "word": "naik,",
+   "start": 46.593,
+   "end": 46.985
+  },
+  {
+   "word": "mereka",
+   "start": 47.197,
+   "end": 47.451
+  },
+  {
+   "word": "sudah",
+   "start": 47.451,
+   "end": 47.663
+  },
+  {
+   "word": "ada",
+   "start": 47.663,
+   "end": 47.864
+  },
+  {
+   "word": "di",
+   "start": 47.864,
+   "end": 47.938
+  },
+  {
+   "word": "tempat.",
+   "start": 47.938,
+   "end": 48.341
+  },
+  {
+   "word": "Bahkan",
+   "start": 49.057,
+   "end": 49.375
+  },
+  {
+   "word": "sebelum",
+   "start": 49.375,
+   "end": 49.661
+  },
+  {
+   "word": "padi",
+   "start": 49.661,
+   "end": 49.82
+  },
+  {
+   "word": "ditanam,",
+   "start": 49.82,
+   "end": 50.328
+  },
+  {
+   "word": "refugia",
+   "start": 50.583,
+   "end": 50.996
+  },
+  {
+   "word": "sudah",
+   "start": 50.996,
+   "end": 51.208
+  },
+  {
+   "word": "harus",
+   "start": 51.208,
+   "end": 51.409
+  },
+  {
+   "word": "berbunga",
+   "start": 51.409,
+   "end": 51.695
+  },
+  {
+   "word": "dulu.",
+   "start": 51.695,
+   "end": 52.076
+  },
+  {
+   "word": "Itu",
+   "start": 52.79,
+   "end": 53.023
+  },
+  {
+   "word": "aturan",
+   "start": 53.023,
+   "end": 53.362
+  },
+  {
+   "word": "dari",
+   "start": 53.362,
+   "end": 53.5
+  },
+  {
+   "word": "penyuluh",
+   "start": 53.5,
+   "end": 53.764
+  },
+  {
+   "word": "pertanian.",
+   "start": 53.764,
+   "end": 54.389
+  },
+  {
+   "word": "Jadi",
+   "start": 55.099,
+   "end": 55.375
+  },
+  {
+   "word": "pematang",
+   "start": 55.375,
+   "end": 55.692
+  },
+  {
+   "word": "yang",
+   "start": 55.692,
+   "end": 55.798
+  },
+  {
+   "word": "terlihat",
+   "start": 55.798,
+   "end": 56.084
+  },
+  {
+   "word": "sibuk",
+   "start": 56.084,
+   "end": 56.328
+  },
+  {
+   "word": "dengan",
+   "start": 56.328,
+   "end": 56.519
+  },
+  {
+   "word": "bunga,",
+   "start": 56.519,
+   "end": 56.932
+  },
+  {
+   "word": "sebenarnya",
+   "start": 57.175,
+   "end": 57.62
+  },
+  {
+   "word": "sedang",
+   "start": 57.62,
+   "end": 57.832
+  },
+  {
+   "word": "bekerja",
+   "start": 57.832,
+   "end": 58.171
+  },
+  {
+   "word": "sebagai",
+   "start": 58.171,
+   "end": 58.5
+  },
+  {
+   "word": "pagar",
+   "start": 58.5,
+   "end": 58.754
+  },
+  {
+   "word": "hidup.",
+   "start": 58.754,
+   "end": 59.146
+  },
+  {
+   "word": "Bukan",
+   "start": 59.855,
+   "end": 60.152
+  },
+  {
+   "word": "buang",
+   "start": 60.152,
+   "end": 60.332
+  },
+  {
+   "word": "tempat,",
+   "start": 60.332,
+   "end": 60.767
+  },
+  {
+   "word": "tapi",
+   "start": 60.978,
+   "end": 61.211
+  },
+  {
+   "word": "memasang",
+   "start": 61.211,
+   "end": 61.54
+  },
+  {
+   "word": "penjaga.",
+   "start": 61.54,
+   "end": 62.112
+  }
+ ]
+}

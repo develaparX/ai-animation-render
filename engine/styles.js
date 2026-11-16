@@ -78,6 +78,12 @@ export const STYLES = {
       golden: { sky: ['#4a7a70', '#e0a050', '#f6dca8'], rim: '#f6c87a' },
     },
   },
+  jadiBegini: {
+    name: 'Jadi Begini 3D Hybrid', desc: 'JadiBeginiClips / TheOfficeExplainer hybrid: natural daylight low-poly 3D, cream-white round heads with blush, yellow highlight line, soft bloom, light grain.',
+    ink: '#0d0f14', inkFar: '#2a3242', feature: '#f5f2ea', rimWidth: 4,
+    ui: { ...UI, card: 'rgba(14,20,30,.92)', cardLine: 'rgba(255,255,255,.18)', text: '#f2f6ff', sub: '#9fb0c8', accent: '#f4c22b', gold: '#ffd23f', cream: '#f5f2ea', blueprint: '#9fb0c8', bpBg: '#101722', good: '#5fd39a' },
+    grade: { contrast: 1.06, sat: 1.08, lift: [0, 0, 0], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.26, grain: 0.04, bloom: 0.5 },
+  },
   garishidup: {
     name: 'GarisHidup Matte Gold', desc: 'GarisHidup (@garishidup.idn) matte charcoal stage, cream-white 3D-shaded capsule hero, slate support, single glowing gold accent.',
     ink: '#090c10', inkFar: '#202734', feature: '#f5f2ea', rimWidth: 4,

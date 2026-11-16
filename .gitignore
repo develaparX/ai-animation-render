@@ -4,10 +4,17 @@ out/
 studio-3d/node_modules/
 studio-3d/out/
 studio-3d/preview/
+
+# proyek: artefak render tidak ikut di-commit; sumber (config, script, shots, timeline) ikut
 projects/*/build/
 projects/*/out/
 projects/*/input/*.wav
 projects/*/input/*.mp3
+examples/*/build/
+examples/*/out/
+examples/*/input/*.wav
+examples/*/input/*.mp3
+
 *.mp4
 *.wav
 *.mp3
