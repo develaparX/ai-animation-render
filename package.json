@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "private": true,
   "type": "module",
-  "description": "AI Animation Render Studio: Design Thinking methodology, Skill Tree, Stick-2D (@garishidup.idn v2.1 / develapar), and Three.js/Remotion 3D Animation pipelines.",
+  "description": "AI Animation Render Studio: Design Thinking methodology, Skill Tree, and Stick-2D (@garishidup.idn v2.1) code-driven animation pipeline.",
   "dependencies": {
     "@fontsource/fredoka": "5.1.0",
     "@fontsource/nunito": "5.1.0",
