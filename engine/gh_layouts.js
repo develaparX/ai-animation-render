@@ -223,8 +223,8 @@ export function renderGHShot(g, ctx, spec) {
     GH.headline(g, hl, { y: E.H * (sub ? 0.195 : 0.185), reveal: effReveal });
   }
 
-  // 0) BATCH 2 BESPOKE LAYOUTS (V11..V20)
-  if (/^v1[1-9]_|^v20_/.test(layout)) {
+  // 0) BATCH 2 & 3 BESPOKE LAYOUTS (V11..V24)
+  if (/^v1[1-9]_|^v2[0-4]_/.test(layout)) {
     renderBatch2Layout(g, ctx, spec, floorY);
     return;
   }
@@ -1381,6 +1381,272 @@ function renderBatch2Layout(g, ctx, spec, floorY) {
       drawHouseWithStamp(g, 700, floorY, 'ATAP MILIK SENDIRI', true);
       GH.figure(g, { x: 250, y: floorY, s: 0.98, role: 'hero', pose: POSES.cheer, label: 'AKU', labelDy: -255 });
       GH.figure(g, { x: 410, y: floorY, s: 0.94, role: 'mauve', garment: 'ibu', pose: POSES.cheer, label: 'KELUARGA BAHAGIA', labelDy: -250 });
+      return;
+    }
+  }
+
+  // --- V21: Ijazah Ditahan (Keringat 3 Tahun vs Tebusan Selembar Kertas) ---
+  if (layout.startsWith('v21_')) {
+    if (layout === 'v21_b1_hook_empty_folder') {
+      rr(g, 340, 680, 240, 310, 8); g.fillStyle = '#991b1b'; g.fill(); g.strokeStyle = '#090c10'; g.lineWidth = 5; g.stroke();
+      rr(g, 360, 700, 200, 270, 4); g.fillStyle = '#f8fafc'; g.fill();
+      GH.microLabel(g, 'MAP RAPOT · KOSONG', 460, 835, { size: 20, color: '#991b1b' });
+      GH.figure(g, { x: 680, y: floorY, s: 0.98, facing: -1, role: 'hero', pose: POSES.sad, label: 'FAJAR · NILAI 95', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v21_b2_brankas_142') {
+      rr(g, 220, 560, 460, 530, 16); g.fillStyle = '#1e293b'; g.fill(); g.strokeStyle = '#090c10'; g.lineWidth = 6; g.stroke();
+      circle(g, 450, 820, 54, '#334155'); circle(g, 450, 820, 22, '#0f172a');
+      GH.padlock(g, 450, 820, 1.15, { locked: true, label: '142 IJAZAH TERKUNCI' });
+      GH.blueprintBoard(g, { x: 810, floorY, topLabel: 'RUANG TATA USAHA', title: '142 TAHANAN', crumpledCount: 3, gold: false });
+      GH.figure(g, { x: 810, y: floorY, s: 0.94, facing: -1, role: 'gold', garment: 'suit', pose: POSES.stand, label: 'OKNUM TU', labelDy: -250 });
+      return;
+    }
+    if (layout === 'v21_b3_kwitansi_2jt4') {
+      GH.receiptCard(g, { x: 300, y: 590, topLabel: 'TAGIHAN KELULUSAN', mainValue: 'Rp2.400.000', subLabel: 'UANG GEDUNG WAJIB LUNAS', gold: false });
+      GH.figure(g, { x: 440, y: floorY, s: 0.96, role: 'hero', pose: POSES.think, label: 'FAJAR', labelDy: -255 });
+      GH.figure(g, { x: 740, y: floorY, s: 0.94, role: 'gold', garment: 'suit', facing: -1, pose: POSES.point, label: 'OKNUM TU', labelDy: -250 });
+      return;
+    }
+    if (layout === 'v21_b4_kaleng_becak_120k') {
+      GH.expenseStack(g, { x: 120, y: 590, topLabel: 'CELENGAN KALENG AYAH', mainValue: 'Rp120.000', items: ['TARIKAN BECAK SEHARIAN', 'TUNGGAKAN: Rp2.280.000 LAGI'] });
+      drawCart(g, 720, floorY, 1.05, false);
+      GH.figure(g, { x: 460, y: floorY, s: 0.94, role: 'slate', garment: 'kopiah', pose: POSES.sit, label: 'AYAH BECAK', labelDy: -250 });
+      return;
+    }
+    if (layout === 'v21_b5_satpam_tolak_kerja') {
+      poly(g, [[160, 500], [160, floorY]], '#475569');
+      GH.speechBubble(g, 'IJAZAH ASLI MANA?', 680, 720, { tailDir: 'left', gold: false });
+      GH.figure(g, { x: 330, y: floorY, s: 0.96, role: 'hero', pose: POSES.sad, label: 'FAJAR', labelDy: -255 });
+      GH.figure(g, { x: 720, y: floorY, s: 0.98, role: 'slate', garment: 'suit', facing: -1, pose: POSES.point, label: 'SATPAM PABRIK', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v21_b6_split_aula_1m8') {
+      GH.openSplitStage(g, {
+        topFloorY: 830, dividerY: 860, botFloorY: 1360, active: 'both',
+        topTag: 'AULA DINAS · RENOVASI Rp1,8 MILIAR',
+        botTag: 'BURUH KULI SERABUTAN · 8 BULAN',
+        topDraw: (g2, z) => {
+          GH.expenseStack(g2, { x: 100, y: 530, topLabel: 'ANGGARAN DINAS', mainValue: 'Rp1,8 MILIAR', items: ['RENOVASI AULA CAIR MULUS'] });
+          GH.figure(g2, { x: 690, y: z.floorY, s: 0.90, role: 'gold', garment: 'suit', pose: POSES.cheer, reflect: false });
+        },
+        botDraw: (g2, z) => {
+          GH.expenseStack(g2, { x: 100, y: 1020, topLabel: 'KULI ANGKUT', mainValue: 'Rp60.000/HARI', items: ['IJAZAH ASLI MASIH DITAHAN'] });
+          GH.figure(g2, { x: 690, y: z.floorY, s: 0.94, role: 'hero', pose: POSES.holdFront, reflect: true });
+        },
+      });
+      return;
+    }
+    if (layout === 'v21_b7_flashback_jam4_merakit') {
+      GH.goldTimerPill(g, '04.00', { y: 490, clockIcon: true, sub: 'BENGKEL MESIN SMK' });
+      glow(g, 680, 780, 120, GH.PALETTE.gold, 0.4);
+      circle(g, 680, 780, 42, GH.PALETTE.goldHi);
+      GH.microLabel(g, 'JUARA 1 TEKNIK PROVINSI', 680, 850, { size: 20, color: GH.PALETTE.goldHi, bg: true });
+      GH.figure(g, { x: 380, y: floorY, s: 0.98, role: 'hero', pose: POSES.holdFront, label: 'FAJAR', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v21_b10_counter_142_bebas') {
+      const remain = Math.round(lerp(142, 0, ease.inOut(u)));
+      GH.bigCounter(g, String(remain), { x: 540, y: 580, label: 'IJAZAH TERSANDERA', gold: u > 0.6 });
+      glow(g, 540, floorY - 180, 280, GH.PALETTE.gold, 0.35);
+      GH.figure(g, { x: 330, y: floorY, s: 0.96, role: 'slate', garment: 'kopiah', pose: POSES.cheer, label: 'AYAH', labelDy: -250 });
+      GH.figure(g, { x: 540, y: floorY, s: 0.98, role: 'hero', pose: POSES.cheer, label: 'FAJAR LUNAS', labelDy: -255 });
+      GH.figure(g, { x: 750, y: floorY, s: 0.94, role: 'mauve', garment: 'ibu', facing: -1, pose: POSES.cheer, label: 'IBU', labelDy: -250 });
+      return;
+    }
+  }
+
+  // --- V22: Jalur Prestasi (Juara Lari Subuh vs Kursi Titipan Pejabat) ---
+  if (layout.startsWith('v22_')) {
+    if (layout === 'v22_b1_hook_gold_medal') {
+      glow(g, 540, 760, 140, GH.PALETTE.gold, 0.45);
+      circle(g, 540, 760, 36, GH.PALETTE.goldHi);
+      circle(g, 540, 760, 26, GH.PALETTE.gold);
+      GH.microLabel(g, 'MEDALI EMAS MARATON DAERAH', 540, 825, { size: 20, color: GH.PALETTE.goldHi, bg: true });
+      GH.figure(g, { x: 540, y: floorY, s: 0.98, role: 'hero', pose: POSES.stand, label: 'RIAN · SEPATU IKAT KARET', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v22_b2_flashback_jam4_lari') {
+      GH.goldTimerPill(g, '04.00', { y: 490, clockIcon: true, sub: '15 KILOMETER JALANAN KAMPUNG' });
+      for (let i = 0; i < 6; i++) {
+        seg(g, [[160 + i * 140, 840], [220 + i * 140, 840]], 4, '#475569');
+      }
+      GH.figure(g, { x: 480, y: floorY, s: 0.98, role: 'hero', pose: walkPose(t, 2.2), label: 'RIAN', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v22_b3_scoreboard_finish') {
+      GH.scoreboard(g, { x: 300, y: 560, w: 480, h: 220, teamA: 'RIAN (JUARA 1)', scoreA: '01:14:02', teamB: 'PESERTA 2', scoreB: '01:21:45', gold: true });
+      GH.crowdQueue(g, { startX: 680, floorY, count: 5, confetti: true });
+      GH.figure(g, { x: 380, y: floorY, s: 0.98, role: 'hero', pose: POSES.cheer, label: 'RIAN', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v22_b4_daftar_sma_ibu') {
+      GH.blueprintBoard(g, { x: 410, floorY, topLabel: 'PPDB JALUR PRESTASI', title: 'SMA FAVORIT IBU', crumpledCount: 0, gold: true });
+      GH.figure(g, { x: 740, y: floorY, s: 0.96, facing: -1, role: 'hero', pose: POSES.holdFront, label: 'BERKAS MEDALI EMAS', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v22_b5_nama_raib_toast') {
+      GH.chatToast(g, { x: 310, y: 620, sender: 'SISTEM PPDB RESMI', message: 'STATUS: NAMA TIDAK DITEMUKAN PADA KUOTA PRESTASI', timeStr: '10.00', gold: false });
+      GH.figure(g, { x: 540, y: floorY, s: 0.98, role: 'hero', pose: POSES.sad, label: 'RIAN · PERINGKAT 1 RAIB', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v22_b6_alphard_gerbang_belakang') {
+      drawLuxuryCar(g, 640, floorY, 1.25, true);
+      GH.figure(g, { x: 260, y: floorY, s: 0.94, role: 'gold', garment: 'suit', pose: POSES.point, label: 'PEJABAT ORDAL', labelDy: -250 });
+      GH.figure(g, { x: 440, y: floorY, s: 0.94, role: 'slate', garment: 'suit', facing: -1, pose: POSES.think, label: 'PANITIA PPDB', labelDy: -250 });
+      return;
+    }
+    if (layout === 'v22_b7_piagam_bazar_ghost') {
+      GH.ghostFigure(g, { x: 680, y: floorY, s: 1.0, mode: 'dashed', innerText: 'TITIPAN ORDAL' });
+      GH.receiptCard(g, { x: 300, y: 590, topLabel: 'BERKAS TITIPAN', mainValue: 'PANITIA BAZAR', subLabel: 'KREDIBILITAS: 0%', gold: false });
+      GH.speechBubble(g, 'TITIPAN LOLOS!', 660, 760, { tailDir: 'right', gold: false });
+      GH.figure(g, { x: 380, y: floorY, s: 0.96, role: 'hero', pose: POSES.sad, label: 'RIAN TERSINGKIR', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v22_b10_counter_audit') {
+      const pct = Math.round(lerp(0, 100, ease.inOut(u)));
+      GH.bigCounter(g, `${pct}%`, { x: 540, y: 580, label: 'AUDIT VERIFIKASI DIGITAL', gold: u > 0.5 });
+      GH.angledStamp(g, 'TITIPAN PALSU', 740, 780, { w: 280, h: 72, angle: -0.12, gold: false });
+      GH.figure(g, { x: 350, y: floorY, s: 0.98, role: 'hero', pose: POSES.stand, label: 'RIAN JUARA MURNI', labelDy: -255 });
+      GH.figure(g, { x: 740, y: floorY, s: 0.94, role: 'slate', garment: 'suit', facing: -1, pose: POSES.sad, label: 'PANITIA KETAHUAN', labelDy: -250 });
+      return;
+    }
+  }
+
+  // --- V23: Pungli Loker (Sertifikat Las Terbaik vs Uang Pelicin Rp15 Juta) ---
+  if (layout.startsWith('v23_')) {
+    if (layout === 'v23_b1_hook_sertifikat_kardus') {
+      rr(g, 620, 840, 260, 200, 8); g.fillStyle = '#78350f'; g.fill(); g.strokeStyle = '#090c10'; g.lineWidth = 4; g.stroke();
+      GH.microLabel(g, 'KARDUS SAMPAH BERKAS', 750, 930, { size: 18, color: '#fef3c7' });
+      rr(g, 320, 680, 220, 280, 6); g.fillStyle = '#0f172a'; g.fill(); g.strokeStyle = GH.PALETTE.gold; g.lineWidth = 4; g.stroke();
+      glow(g, 430, 800, 100, GH.PALETTE.gold, 0.4);
+      circle(g, 430, 800, 32, GH.PALETTE.goldHi);
+      GH.microLabel(g, 'SERTIFIKAT LAS GRADE A', 430, 860, { size: 16, color: GH.PALETTE.goldHi });
+      GH.figure(g, { x: 430, y: floorY, s: 0.98, role: 'hero', pose: POSES.sad, label: 'BAGAS · JUARA LAS', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v23_b2_receipt_pelicin_15jt') {
+      GH.receiptCard(g, { x: 300, y: 590, topLabel: 'SYARAT LOLOS OPERATOR', mainValue: 'Rp15.000.000', subLabel: 'UANG ADMINISTRASI CALO', gold: false });
+      GH.figure(g, { x: 440, y: floorY, s: 0.96, role: 'hero', pose: POSES.think, label: 'BAGAS', labelDy: -255 });
+      GH.figure(g, { x: 740, y: floorY, s: 0.94, role: 'gold', garment: 'suit', facing: -1, pose: POSES.point, label: 'OKNUM CALO', labelDy: -250 });
+      return;
+    }
+    if (layout === 'v23_b3_queue_120_pelamar') {
+      poly(g, [[160, 520], [160, floorY]], '#475569');
+      GH.crowdQueue(g, { startX: 420, floorY, count: 6, confetti: false });
+      GH.figure(g, { x: 300, y: floorY, s: 0.98, role: 'hero', pose: POSES.stand, label: '120 PELAMAR SUBUH', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v23_b4_pintu_belakang_amplop') {
+      rr(g, 580, 560, 300, 500, 8); g.fillStyle = '#1e293b'; g.fill(); g.strokeStyle = '#090c10'; g.lineWidth = 5; g.stroke();
+      rr(g, 340, 720, 180, 120, 6); g.fillStyle = '#b45309'; g.fill(); g.strokeStyle = '#090c10'; g.lineWidth = 3; g.stroke();
+      GH.microLabel(g, 'AMPLOP COKELAT 15 JT', 430, 780, { size: 16, color: '#fef3c7' });
+      GH.figure(g, { x: 440, y: floorY, s: 0.94, role: 'gold', garment: 'suit', pose: POSES.point, label: 'CALO ORDAL', labelDy: -250 });
+      return;
+    }
+    if (layout === 'v23_b5_ghost_titipan_mesin') {
+      GH.ghostFigure(g, { x: 680, y: floorY, s: 1.0, mode: 'dashed', innerText: 'TITIPAN ORDAL' });
+      GH.speechBubble(g, 'GAK BISA NGELAS!', 640, 740, { tailDir: 'right', gold: false });
+      GH.figure(g, { x: 360, y: floorY, s: 0.96, role: 'hero', pose: POSES.sad, label: 'BAGAS TERSINGKIR', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v23_b6_split_bengkel_vs_kantor') {
+      GH.openSplitStage(g, {
+        topFloorY: 830, dividerY: 860, botFloorY: 1360, active: 'both',
+        topTag: 'RUANG CALO · SETORAN Rp15 JUTA',
+        botTag: 'BENGKEL LAS SMK · 3 TAHUN KERINGAT',
+        topDraw: (g2, z) => {
+          GH.expenseStack(g2, { x: 100, y: 530, topLabel: 'BISNIS CALO PABRIK', mainValue: 'Rp150 JUTA/BATCH', items: ['JUAL KURSI OPERATOR MESIN'] });
+          GH.figure(g2, { x: 690, y: z.floorY, s: 0.90, role: 'gold', garment: 'suit', pose: POSES.cheer, reflect: false });
+        },
+        botDraw: (g2, z) => {
+          GH.expenseStack(g2, { x: 100, y: 1020, topLabel: 'ANAK PETANI SMK', mainValue: 'NILAI PRAKTIK 98', items: ['DISURUH PULANG TANPA ALASAN'] });
+          GH.figure(g2, { x: 690, y: z.floorY, s: 0.94, role: 'hero', pose: POSES.holdFront, reflect: true });
+        },
+      });
+      return;
+    }
+    if (layout === 'v23_b7_flashback_sawah_gadai') {
+      GH.goldTimerPill(g, 'SERTIFIKAT TANAH', { y: 490, clockIcon: false, sub: 'SAWAH DIGADAIKAN ORANG TUA' });
+      GH.expenseStack(g, { x: 120, y: 590, topLabel: 'BEBAN KELUARGA', mainValue: 'Rp15.000.000', items: ['SURAT SAWAH DIGADAIKAN', 'BUNGA UTANG BULANAN'] });
+      GH.figure(g, { x: 440, y: floorY, s: 0.94, role: 'slate', garment: 'kopiah', pose: POSES.sad, label: 'AYAH PETANI', labelDy: -250 });
+      return;
+    }
+    if (layout === 'v23_b10_counter_sidak') {
+      GH.bigCounter(g, '0', { x: 540, y: 580, label: 'KUOTA CALO TERSISA', gold: u > 0.5 });
+      GH.angledStamp(g, 'JARINGAN DIBONGKAR', 740, 780, { w: 320, h: 72, angle: -0.10, gold: true });
+      GH.figure(g, { x: 350, y: floorY, s: 0.98, role: 'hero', pose: POSES.cheer, label: 'BAGAS DITERIMA', labelDy: -255 });
+      GH.figure(g, { x: 740, y: floorY, s: 0.94, role: 'gold', garment: 'suit', facing: -1, pose: POSES.sad, label: 'CALO TERTANGKAP', labelDy: -250 });
+      return;
+    }
+  }
+
+  // --- V24: Parkir Minimarket (Belanja 2 Menit vs Peluit Seribu Perak) ---
+  if (layout.startsWith('v24_')) {
+    if (layout === 'v24_b1_hook_plang_vs_peluit') {
+      rr(g, 180, 560, 320, 140, 8); g.fillStyle = '#facc15'; g.fill(); g.strokeStyle = '#090c10'; g.lineWidth = 5; g.stroke();
+      GH.microLabel(g, 'PARKIR GRATIS KONSUMEN', 340, 635, { size: 20, color: '#090c10' });
+      glow(g, 720, 680, 130, GH.PALETTE.gold, 0.45);
+      circle(g, 720, 680, 38, GH.PALETTE.goldHi);
+      GH.microLabel(g, 'PRIIIT! PELUIT BUNYI', 720, 750, { size: 18, color: GH.PALETTE.goldHi, bg: true });
+      drawScooter(g, 420, floorY, 1.0, 0);
+      GH.figure(g, { x: 420, y: floorY, s: 0.98, role: 'hero', pose: POSES.stand, label: 'PEMBELI', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v24_b2_rompi_muncul_mundur') {
+      drawScooter(g, 360, floorY, 0.95, -0.05);
+      GH.speechBubble(g, 'PRIIIT! DUA RIBU!', 680, 740, { tailDir: 'right', gold: false });
+      GH.figure(g, { x: 360, y: floorY, s: 0.96, role: 'hero', pose: POSES.think, label: 'MAU MUNDUR', labelDy: -255 });
+      GH.figure(g, { x: 700, y: floorY, s: 0.98, facing: -1, role: 'slate', garment: 'none', pose: POSES.point, label: 'JUKIR ROMPI ORANYE', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v24_b3_flashback_beli_obat') {
+      GH.goldTimerPill(g, '00.20', { y: 490, clockIcon: true, sub: 'BELI OBAT PENURUN PANAS ANAK' });
+      rr(g, 620, 680, 180, 160, 8); g.fillStyle = '#10b981'; g.fill(); g.strokeStyle = '#090c10'; g.lineWidth = 4; g.stroke();
+      GH.microLabel(g, 'OBAT DEMAM ANAK', 710, 760, { size: 16, color: '#ffffff' });
+      GH.figure(g, { x: 400, y: floorY, s: 0.98, role: 'hero', pose: POSES.holdFront, label: 'AYAH PANIK', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v24_b4_koin_2000_tanpa_karcis') {
+      GH.receiptCard(g, { x: 300, y: 590, topLabel: 'TARIKAN PARKIR LIAR', mainValue: 'Rp2.000', subLabel: 'TANPA KARCIS · HELM HILANG TANGGUNG SENDIRI', gold: false });
+      circle(g, 720, 760, 36, '#94a3b8');
+      GH.microLabel(g, 'KOIN Rp2.000', 720, 820, { size: 18, color: GH.PALETTE.hero });
+      GH.figure(g, { x: 440, y: floorY, s: 0.96, role: 'hero', pose: POSES.sad, label: 'KONSUMEN', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v24_b5_scoreboard_omset') {
+      GH.scoreboard(g, { x: 300, y: 560, w: 480, h: 220, teamA: '200 MOTOR/HARI', scoreA: 'Rp400.000', teamB: '1 BULAN/TOKO', scoreB: 'Rp12 JUTA', gold: true });
+      GH.figure(g, { x: 540, y: floorY, s: 0.98, role: 'hero', pose: POSES.think, label: 'KONSUMEN HERAN', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v24_b6_split_bos_preman') {
+      GH.openSplitStage(g, {
+        topFloorY: 830, dividerY: 860, botFloorY: 1360, active: 'both',
+        topTag: 'KAS RETRIBUSI DAERAH: Rp0',
+        botTag: 'KANTONG BOS ORMAS: Rp12 JUTA/BULAN',
+        topDraw: (g2, z) => {
+          GH.expenseStack(g2, { x: 100, y: 530, topLabel: 'KAS RETRIBUSI DAERAH', mainValue: 'Rp0 RUPIAH', items: ['TIDAK MASUK APBD KOTA'] });
+          GH.figure(g2, { x: 690, y: z.floorY, s: 0.90, role: 'hero', pose: POSES.sad, reflect: false });
+        },
+        botDraw: (g2, z) => {
+          GH.expenseStack(g2, { x: 100, y: 1020, topLabel: 'SETORAN PREMAN', mainValue: 'Rp12.000.000', items: ['ALIRAN DANA GELAP BULANAN'] });
+          drawLuxuryCar(g2, 700, z.floorY, 1.1, true);
+          GH.figure(g2, { x: 500, y: z.floorY, s: 0.94, role: 'gold', garment: 'suit', pose: POSES.cheer, reflect: true });
+        },
+      });
+      return;
+    }
+    if (layout === 'v24_b7_ghost_intimidasi') {
+      GH.ghostFigure(g, { x: 690, y: floorY, s: 1.02, mode: 'dashed', innerText: 'PREMAN ORMAS' });
+      GH.speechBubble(g, 'GAK BAYAR GAK USAH BELANJA!', 640, 740, { tailDir: 'right', gold: false });
+      GH.figure(g, { x: 380, y: floorY, s: 0.96, role: 'hero', pose: POSES.sad, label: 'KONSUMEN TERTEKAN', labelDy: -255 });
+      return;
+    }
+    if (layout === 'v24_b10_counter_penertiban') {
+      GH.bigCounter(g, '100%', { x: 540, y: 580, label: 'TITIK PROTOKOL DITERTIBKAN', gold: u > 0.5 });
+      GH.angledStamp(g, 'PARKIR BENERAN GRATIS', 740, 780, { w: 340, h: 72, angle: -0.10, gold: true });
+      GH.figure(g, { x: 350, y: floorY, s: 0.98, role: 'hero', pose: POSES.cheer, label: 'WARGA TENANG', labelDy: -255 });
+      GH.figure(g, { x: 740, y: floorY, s: 0.94, role: 'slate', garment: 'suit', facing: -1, pose: POSES.stand, label: 'SATPOL PP TEGAS', labelDy: -250 });
       return;
     }
   }
